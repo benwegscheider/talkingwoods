@@ -1,0 +1,74 @@
+p {
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+
+.keyword1, .keyword2 {
+  font-family: Times;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.sub {
+  font-family: Times;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 22px;
+  letter-spacing: 4px;
+  text-decoration: underline;
+}
+
+.kapitel {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.element {
+  h2 {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+
+  .item h2 {
+    font-family: Times;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: left;
+
+  }
+}
+
+#info {
+  p {
+    font-size: 15px;
+    text-transform: none;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .dick {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .keyword1 {
+    font-family: Times;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .contact {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}

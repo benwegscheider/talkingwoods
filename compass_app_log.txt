@@ -1,0 +1,1566 @@
+2014-05-16 15:26:17    create ./css/style.css 
+2014-05-16 15:26:38 identical ./css/style.css 
+2014-05-16 15:59:44 overwrite ./css/style.css 
+2014-05-16 15:59:53     error sass/style.scss (Line 4 of sass/part/_main.scss: File to import not found or unreadable: part/page/start.
+Load paths:
+  /Applications/MAMP/htdocs/sync-backbone/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2014-05-16 15:59:53 overwrite ./css/style.css 
+2014-05-16 15:59:53     error sass/style.scss (Line 4 of sass/part/_main.scss: File to import not found or unreadable: part/page/start.
+Load paths:
+  /Applications/MAMP/htdocs/sync-backbone/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2014-05-16 15:59:53 identical ./css/style.css 
+2014-05-16 15:59:59     error sass/style.scss (Line 4 of sass/part/_main.scss: File to import not found or unreadable: part/page/start.
+Load paths:
+  /Applications/MAMP/htdocs/sync-backbone/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2014-05-16 15:59:59 identical ./css/style.css 
+2014-05-16 16:00:00     error sass/style.scss (Line 4 of sass/part/_main.scss: File to import not found or unreadable: part/page/start.
+Load paths:
+  /Applications/MAMP/htdocs/sync-backbone/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2014-05-16 16:00:00 identical ./css/style.css 
+2014-05-16 16:00:06     error sass/style.scss (Line 3 of sass/part/_main.scss: File to import not found or unreadable: part/page/start.
+Load paths:
+  /Applications/MAMP/htdocs/sync-backbone/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2014-05-16 16:00:06 overwrite ./css/style.css 
+2014-05-16 16:00:07     error sass/style.scss (Line 3 of sass/part/_main.scss: File to import not found or unreadable: part/page/start.
+Load paths:
+  /Applications/MAMP/htdocs/sync-backbone/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2014-05-16 16:00:07 identical ./css/style.css 
+2014-05-16 16:00:19     error sass/style.scss (Line 3 of sass/part/_main.scss: File to import not found or unreadable: part/page/start.
+Load paths:
+  /Applications/MAMP/htdocs/sync-backbone/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2014-05-16 16:00:19 overwrite ./css/style.css 
+2014-05-16 16:00:19     error sass/style.scss (Line 3 of sass/part/_main.scss: File to import not found or unreadable: part/page/start.
+Load paths:
+  /Applications/MAMP/htdocs/sync-backbone/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2014-05-16 16:00:19 identical ./css/style.css 
+2014-05-16 16:01:08 overwrite ./css/style.css 
+2014-05-16 16:01:20 overwrite ./css/style.css 
+2014-05-16 16:01:47 overwrite ./css/style.css 
+2014-05-16 16:02:10 overwrite ./css/style.css 
+2014-05-16 16:03:10 overwrite ./css/style.css 
+2014-05-16 16:03:27 identical ./css/style.css 
+2014-05-16 16:03:31 overwrite ./css/style.css 
+2014-05-16 16:03:37 overwrite ./css/style.css 
+2014-05-16 16:04:00 overwrite ./css/style.css 
+2014-05-16 16:04:10 overwrite ./css/style.css 
+2014-05-16 16:04:55 overwrite ./css/style.css 
+2014-05-16 16:05:04 overwrite ./css/style.css 
+2014-05-16 16:05:20 overwrite ./css/style.css 
+2014-05-16 16:05:28 overwrite ./css/style.css 
+2014-05-16 16:05:37 overwrite ./css/style.css 
+2014-05-16 16:06:08 overwrite ./css/style.css 
+2014-05-16 16:06:21 identical ./css/style.css 
+2014-05-16 16:07:28 overwrite ./css/style.css 
+2014-05-16 16:07:40 overwrite ./css/style.css 
+2014-05-16 16:08:03 overwrite ./css/style.css 
+2014-05-16 16:08:17 overwrite ./css/style.css 
+2014-05-16 16:08:37 overwrite ./css/style.css 
+2014-05-16 16:08:42 overwrite ./css/style.css 
+2014-05-16 16:08:52 overwrite ./css/style.css 
+2014-05-16 16:09:04 overwrite ./css/style.css 
+2014-05-16 16:09:13 overwrite ./css/style.css 
+2014-05-16 16:09:20 overwrite ./css/style.css 
+2014-05-16 16:09:32 overwrite ./css/style.css 
+2014-05-16 16:09:40 overwrite ./css/style.css 
+2014-05-16 16:09:47 overwrite ./css/style.css 
+2014-05-16 16:11:47 overwrite ./css/style.css 
+2014-05-16 16:11:51 overwrite ./css/style.css 
+2014-05-16 16:12:01 overwrite ./css/style.css 
+2014-05-16 16:12:15 overwrite ./css/style.css 
+2014-05-16 16:12:16 identical ./css/style.css 
+2014-05-16 16:12:36 overwrite ./css/style.css 
+2014-05-16 16:13:18 overwrite ./css/style.css 
+2014-05-16 16:13:24 overwrite ./css/style.css 
+2014-05-16 16:13:32 overwrite ./css/style.css 
+2014-05-16 16:13:35 overwrite ./css/style.css 
+2014-05-16 16:14:38 overwrite ./css/style.css 
+2014-05-16 16:14:48 overwrite ./css/style.css 
+2014-05-16 16:14:59 overwrite ./css/style.css 
+2014-05-16 16:15:14 identical ./css/style.css 
+2014-05-16 16:15:22 overwrite ./css/style.css 
+2014-05-16 16:15:31 overwrite ./css/style.css 
+2014-05-16 16:15:35 overwrite ./css/style.css 
+2014-05-16 16:15:49 overwrite ./css/style.css 
+2014-05-16 16:15:54 overwrite ./css/style.css 
+2014-05-16 16:16:47 identical ./css/style.css 
+2014-05-16 16:16:52 overwrite ./css/style.css 
+2014-05-16 16:17:07 overwrite ./css/style.css 
+2014-05-16 16:17:47 overwrite ./css/style.css 
+2014-05-16 16:17:57 overwrite ./css/style.css 
+2014-05-16 16:20:28 overwrite ./css/style.css 
+2014-05-16 16:24:30 overwrite ./css/style.css 
+2014-05-16 16:24:42 overwrite ./css/style.css 
+2014-05-16 16:24:44 overwrite ./css/style.css 
+2014-05-16 16:24:48 overwrite ./css/style.css 
+2014-05-16 16:24:51 overwrite ./css/style.css 
+2014-05-16 16:24:54 overwrite ./css/style.css 
+2014-05-16 16:24:57 overwrite ./css/style.css 
+2014-05-16 16:25:12 overwrite ./css/style.css 
+2014-05-16 16:25:25 overwrite ./css/style.css 
+2014-05-16 16:39:58 overwrite ./css/style.css 
+2014-05-16 16:40:04 overwrite ./css/style.css 
+2014-05-16 17:02:49 overwrite ./css/style.css 
+2014-05-16 17:04:15 overwrite ./css/style.css 
+2014-05-16 17:05:05 overwrite ./css/style.css 
+2014-05-16 17:05:38 overwrite ./css/style.css 
+2014-05-16 17:05:50 overwrite ./css/style.css 
+2014-05-16 17:06:12     error sass/style.scss (Line 22 of sass/part/_main.scss: Invalid CSS after "  height: 100%": expected ";", was ":")
+2014-05-16 17:06:12 overwrite ./css/style.css 
+2014-05-16 17:06:12     error sass/style.scss (Line 22 of sass/part/_main.scss: Invalid CSS after "  height: 100%": expected ";", was ":")
+2014-05-16 17:06:12 identical ./css/style.css 
+2014-05-16 17:06:39 overwrite ./css/style.css 
+2014-05-16 17:06:43 overwrite ./css/style.css 
+2014-05-16 17:22:23 overwrite ./css/style.css 
+2014-05-16 17:42:37 overwrite ./css/style.css 
+2014-05-16 17:42:43 overwrite ./css/style.css 
+2014-05-16 17:43:03 overwrite ./css/style.css 
+2014-05-16 17:43:08 overwrite ./css/style.css 
+2014-05-16 17:43:43 overwrite ./css/style.css 
+2014-05-16 17:44:15 overwrite ./css/style.css 
+2014-05-16 17:44:17 identical ./css/style.css 
+2014-05-20 11:20:46 overwrite ./css/style.css 
+2014-05-20 11:35:18 overwrite ./css/style.css 
+2014-05-20 11:35:27 overwrite ./css/style.css 
+2014-05-20 11:35:29 identical ./css/style.css 
+2014-05-20 11:37:21 overwrite ./css/style.css 
+2014-05-20 11:38:11 overwrite ./css/style.css 
+2014-05-20 11:38:17 overwrite ./css/style.css 
+2014-05-20 11:38:26 overwrite ./css/style.css 
+2014-05-20 11:40:15 overwrite ./css/style.css 
+2014-05-21 22:32:29 identical ./css/style.css 
+2014-05-21 22:32:52 overwrite ./css/style.css 
+2014-05-21 22:36:33 overwrite ./css/style.css 
+2014-05-21 22:36:36 identical ./css/style.css 
+2014-05-21 22:37:31 overwrite ./css/style.css 
+2014-05-21 22:38:13 identical ./css/style.css 
+2014-05-21 22:38:38 overwrite ./css/style.css 
+2014-05-21 22:39:56 overwrite ./css/style.css 
+2014-05-21 22:41:04 overwrite ./css/style.css 
+2014-05-21 22:41:37 overwrite ./css/style.css 
+2014-05-21 22:42:11 overwrite ./css/style.css 
+2014-05-21 22:42:41 overwrite ./css/style.css 
+2014-05-21 22:43:10 overwrite ./css/style.css 
+2014-05-21 22:43:20 overwrite ./css/style.css 
+2014-05-21 22:43:25 overwrite ./css/style.css 
+2014-05-21 22:43:32 overwrite ./css/style.css 
+2014-05-21 22:45:25 overwrite ./css/style.css 
+2014-05-21 22:46:35 overwrite ./css/style.css 
+2014-05-21 22:46:43 overwrite ./css/style.css 
+2014-05-21 22:46:55 overwrite ./css/style.css 
+2014-05-21 22:47:50 overwrite ./css/style.css 
+2014-05-21 22:48:46 overwrite ./css/style.css 
+2014-05-21 22:49:34 overwrite ./css/style.css 
+2014-05-21 22:50:15 overwrite ./css/style.css 
+2014-05-21 22:51:32 overwrite ./css/style.css 
+2014-05-21 22:52:01 overwrite ./css/style.css 
+2014-05-21 22:52:10 overwrite ./css/style.css 
+2014-05-21 22:53:12 overwrite ./css/style.css 
+2014-05-21 22:54:19 overwrite ./css/style.css 
+2014-05-21 22:55:47 overwrite ./css/style.css 
+2014-05-21 22:57:43 overwrite ./css/style.css 
+2014-05-21 22:58:26 overwrite ./css/style.css 
+2014-05-22 21:58:39 overwrite ./css/style.css 
+2014-05-22 21:58:45 overwrite ./css/style.css 
+2014-05-22 21:58:48 overwrite ./css/style.css 
+2014-05-22 22:00:31 overwrite ./css/style.css 
+2014-05-22 22:42:40 overwrite ./css/style.css 
+2014-05-22 23:53:47 overwrite ./css/style.css 
+2014-05-22 23:54:12 overwrite ./css/style.css 
+2014-05-23 00:02:49     error sass/style.scss (Line 121 of sass/part/page/_play.scss: Invalid CSS after "        width: 99%": expected ";", was ":")
+2014-05-23 00:02:49 overwrite ./css/style.css 
+2014-05-23 00:02:49     error sass/style.scss (Line 121 of sass/part/page/_play.scss: Invalid CSS after "        width: 99%": expected ";", was ":")
+2014-05-23 00:02:49 identical ./css/style.css 
+2014-05-23 00:02:51     error sass/style.scss (Line 121 of sass/part/page/_play.scss: Invalid CSS after "        width: 99%": expected ";", was ": ")
+2014-05-23 00:02:51 overwrite ./css/style.css 
+2014-05-23 00:02:51     error sass/style.scss (Line 121 of sass/part/page/_play.scss: Invalid CSS after "        width: 99%": expected ";", was ": ")
+2014-05-23 00:02:51 identical ./css/style.css 
+2014-05-23 00:02:55 overwrite ./css/style.css 
+2014-05-28 23:41:12 overwrite ./css/style.css 
+2014-05-28 23:41:48 overwrite ./css/style.css 
+2014-05-28 23:41:57 overwrite ./css/style.css 
+2014-05-28 23:42:18 overwrite ./css/style.css 
+2014-05-28 23:42:29 overwrite ./css/style.css 
+2014-05-28 23:42:45 overwrite ./css/style.css 
+2014-05-28 23:42:56 overwrite ./css/style.css 
+2014-05-28 23:44:17 overwrite ./css/style.css 
+2014-05-28 23:45:20 overwrite ./css/style.css 
+2014-05-28 23:45:39 overwrite ./css/style.css 
+2014-05-28 23:46:02 overwrite ./css/style.css 
+2014-05-28 23:46:10 overwrite ./css/style.css 
+2014-05-28 23:46:13 overwrite ./css/style.css 
+2014-05-28 23:52:00 overwrite ./css/style.css 
+2014-05-28 23:55:31 overwrite ./css/style.css 
+2014-05-28 23:55:41 overwrite ./css/style.css 
+2014-05-28 23:55:55 overwrite ./css/style.css 
+2014-05-28 23:56:01     error sass/style.scss (Line 16 of sass/part/page/_overlay.scss: Invalid CSS after "...padding: 20px 0": expected ";", was "[]")
+2014-05-28 23:56:01 overwrite ./css/style.css 
+2014-05-28 23:56:02     error sass/style.scss (Line 16 of sass/part/page/_overlay.scss: Invalid CSS after "...padding: 20px 0": expected ";", was "[]")
+2014-05-28 23:56:02 identical ./css/style.css 
+2014-05-28 23:56:03 overwrite ./css/style.css 
+2014-05-28 23:56:15 overwrite ./css/style.css 
+2014-06-01 17:45:45 overwrite ./css/style.css 
+2014-06-08 22:51:13 overwrite ./css/style.css 
+2014-06-08 22:51:27 overwrite ./css/style.css 
+2014-06-08 22:51:58 identical ./css/style.css 
+2014-06-08 22:54:01 overwrite ./css/style.css 
+2014-06-08 22:54:24 identical ./css/style.css 
+2014-06-08 22:54:48 overwrite ./css/style.css 
+2014-06-08 22:54:59 overwrite ./css/style.css 
+2014-06-08 22:55:06 overwrite ./css/style.css 
+2014-06-08 22:55:52 overwrite ./css/style.css 
+2014-06-08 22:55:57 identical ./css/style.css 
+2014-06-08 22:56:03 overwrite ./css/style.css 
+2014-06-08 22:56:10 overwrite ./css/style.css 
+2014-06-08 22:56:26 overwrite ./css/style.css 
+2014-06-08 22:56:31 overwrite ./css/style.css 
+2014-06-08 22:56:39 overwrite ./css/style.css 
+2014-06-08 22:56:41 overwrite ./css/style.css 
+2014-06-08 22:56:55 overwrite ./css/style.css 
+2014-06-08 22:56:57 overwrite ./css/style.css 
+2014-06-08 22:57:05 overwrite ./css/style.css 
+2014-06-08 22:57:09 overwrite ./css/style.css 
+2014-06-08 22:57:27 overwrite ./css/style.css 
+2014-06-08 22:57:57 overwrite ./css/style.css 
+2014-06-08 22:58:06 overwrite ./css/style.css 
+2014-06-08 22:58:34 overwrite ./css/style.css 
+2014-06-08 22:58:42 overwrite ./css/style.css 
+2014-06-08 22:59:02 overwrite ./css/style.css 
+2014-06-08 22:59:27 overwrite ./css/style.css 
+2014-06-08 22:59:38 overwrite ./css/style.css 
+2014-06-08 23:09:12 overwrite ./css/style.css 
+2014-06-08 23:09:24 overwrite ./css/style.css 
+2014-06-08 23:10:15 overwrite ./css/style.css 
+2014-06-08 23:10:18 overwrite ./css/style.css 
+2014-06-16 08:32:47 overwrite ./css/style.css 
+2014-06-16 08:33:01 overwrite ./css/style.css 
+2014-06-16 22:32:39 overwrite ./css/style.css 
+2014-06-16 22:32:43 overwrite ./css/style.css 
+2014-06-16 22:33:01 identical ./css/style.css 
+2014-06-16 23:11:54 overwrite ./css/style.css 
+2014-06-16 23:12:05 overwrite ./css/style.css 
+2014-06-16 23:12:22 overwrite ./css/style.css 
+2014-06-16 23:12:26 overwrite ./css/style.css 
+2014-06-16 23:13:07 overwrite ./css/style.css 
+2014-06-16 23:13:18 overwrite ./css/style.css 
+2014-06-16 23:14:10 overwrite ./css/style.css 
+2014-06-16 23:14:13 overwrite ./css/style.css 
+2014-06-16 23:14:56 overwrite ./css/style.css 
+2014-06-16 23:15:09 overwrite ./css/style.css 
+2014-06-16 23:15:18 overwrite ./css/style.css 
+2014-06-16 23:15:20 overwrite ./css/style.css 
+2014-06-16 23:15:51 overwrite ./css/style.css 
+2014-06-16 23:16:57 overwrite ./css/style.css 
+2014-06-16 23:17:03     error sass/style.scss (Line 112 of sass/part/_main.scss: Invalid CSS after "  display: ": expected expression (e.g. 1px, bold), was ";")
+2014-06-16 23:17:03 overwrite ./css/style.css 
+2014-06-16 23:17:04     error sass/style.scss (Line 112 of sass/part/_main.scss: Invalid CSS after "  display: ": expected expression (e.g. 1px, bold), was ";")
+2014-06-16 23:17:04 identical ./css/style.css 
+2014-06-16 23:18:08 overwrite ./css/style.css 
+2014-06-16 23:18:16 overwrite ./css/style.css 
+2014-06-16 23:18:25 overwrite ./css/style.css 
+2014-06-16 23:19:12 overwrite ./css/style.css 
+2014-06-16 23:19:17 identical ./css/style.css 
+2014-06-16 23:21:00 overwrite ./css/style.css 
+2014-06-16 23:23:54 overwrite ./css/style.css 
+2014-06-16 23:24:23 overwrite ./css/style.css 
+2014-06-16 23:24:27 overwrite ./css/style.css 
+2014-06-16 23:28:27 overwrite ./css/style.css 
+2014-06-16 23:39:17 overwrite ./css/style.css 
+2014-06-16 23:39:19 overwrite ./css/style.css 
+2014-06-16 23:39:24 overwrite ./css/style.css 
+2014-06-16 23:39:37 overwrite ./css/style.css 
+2014-06-16 23:39:46 overwrite ./css/style.css 
+2014-06-16 23:39:59 overwrite ./css/style.css 
+2014-06-16 23:46:03 overwrite ./css/style.css 
+2014-06-16 23:46:22 overwrite ./css/style.css 
+2014-06-20 19:16:14 overwrite ./css/style.css 
+2014-06-20 19:16:29 overwrite ./css/style.css 
+2014-06-20 19:17:13 overwrite ./css/style.css 
+2014-06-20 19:48:21     error sass/style.scss (Line 96 of sass/part/_main.scss: Invalid CSS after "    translate3d": expected "{", was "(0, 0, 0);")
+2014-06-20 19:48:21 overwrite ./css/style.css 
+2014-06-20 19:48:21     error sass/style.scss (Line 96 of sass/part/_main.scss: Invalid CSS after "    translate3d": expected "{", was "(0, 0, 0);")
+2014-06-20 19:48:21 identical ./css/style.css 
+2014-06-20 19:50:12 overwrite ./css/style.css 
+2014-06-20 20:12:29 overwrite ./css/style.css 
+2014-06-20 20:12:35 overwrite ./css/style.css 
+2014-06-20 20:13:00 overwrite ./css/style.css 
+2014-06-20 20:14:18 overwrite ./css/style.css 
+2014-06-20 20:29:04 overwrite ./css/style.css 
+2014-06-20 20:29:26 overwrite ./css/style.css 
+2014-06-20 20:29:52 overwrite ./css/style.css 
+2014-06-20 20:40:16 overwrite ./css/style.css 
+2014-06-20 21:53:05 overwrite ./css/style.css 
+2014-06-20 21:53:11 overwrite ./css/style.css 
+2014-06-20 21:59:24 overwrite ./css/style.css 
+2014-06-20 22:00:48 identical ./css/style.css 
+2014-06-20 22:01:14 overwrite ./css/style.css 
+2014-06-20 22:06:38 overwrite ./css/style.css 
+2014-06-20 22:06:49 overwrite ./css/style.css 
+2014-06-20 22:06:57 overwrite ./css/style.css 
+2014-06-20 22:07:23 overwrite ./css/style.css 
+2014-06-20 22:07:29 overwrite ./css/style.css 
+2014-06-20 22:07:47 overwrite ./css/style.css 
+2014-06-20 22:07:49 overwrite ./css/style.css 
+2014-06-20 22:08:04 overwrite ./css/style.css 
+2014-06-20 22:08:26 overwrite ./css/style.css 
+2014-06-20 22:09:01 overwrite ./css/style.css 
+2014-06-20 22:09:29 overwrite ./css/style.css 
+2014-06-20 22:09:34 overwrite ./css/style.css 
+2014-06-20 22:10:18 identical ./css/style.css 
+2014-06-20 22:11:09 overwrite ./css/style.css 
+2014-06-20 22:11:22 overwrite ./css/style.css 
+2014-06-20 22:11:28 overwrite ./css/style.css 
+2014-06-20 22:22:25 overwrite ./css/style.css 
+2014-06-20 22:23:08 identical ./css/style.css 
+2014-06-20 22:23:18 overwrite ./css/style.css 
+2014-06-20 22:25:08 identical ./css/style.css 
+2014-06-20 22:27:47 overwrite ./css/style.css 
+2014-06-20 22:28:06 overwrite ./css/style.css 
+2014-06-20 22:28:40 overwrite ./css/style.css 
+2014-06-20 22:29:04 overwrite ./css/style.css 
+2014-06-20 22:29:24 overwrite ./css/style.css 
+2014-06-20 22:30:03 overwrite ./css/style.css 
+2014-06-20 22:31:00 overwrite ./css/style.css 
+2014-06-20 22:31:30 overwrite ./css/style.css 
+2014-06-20 22:31:51 overwrite ./css/style.css 
+2014-06-20 22:31:57 overwrite ./css/style.css 
+2014-06-20 22:31:58 overwrite ./css/style.css 
+2014-06-20 22:32:04 overwrite ./css/style.css 
+2014-06-20 22:32:13 overwrite ./css/style.css 
+2014-06-20 22:33:13 overwrite ./css/style.css 
+2014-06-20 22:33:29 overwrite ./css/style.css 
+2014-06-20 22:33:53 identical ./css/style.css 
+2014-06-20 22:34:19 overwrite ./css/style.css 
+2014-06-20 22:34:41 overwrite ./css/style.css 
+2014-06-20 22:34:46 overwrite ./css/style.css 
+2014-06-20 22:34:55 overwrite ./css/style.css 
+2014-06-20 22:35:01 overwrite ./css/style.css 
+2014-06-20 22:35:14 overwrite ./css/style.css 
+2014-06-20 22:35:32     error sass/style.scss (Line 221 of sass/part/_main.scss: Invalid CSS after "        padding": expected ";", was ": 10px 15px;")
+2014-06-20 22:35:32 overwrite ./css/style.css 
+2014-06-20 22:35:32 overwrite ./css/style.css 
+2014-06-20 22:35:41 overwrite ./css/style.css 
+2014-06-20 22:35:50 overwrite ./css/style.css 
+2014-06-20 22:35:56 overwrite ./css/style.css 
+2014-06-20 22:36:39 overwrite ./css/style.css 
+2014-06-20 22:37:02 overwrite ./css/style.css 
+2014-06-20 22:37:12 overwrite ./css/style.css 
+2014-06-20 22:37:14 overwrite ./css/style.css 
+2014-06-20 22:37:22 overwrite ./css/style.css 
+2014-06-20 22:37:55 overwrite ./css/style.css 
+2014-06-20 22:38:13 overwrite ./css/style.css 
+2014-06-20 22:38:29 overwrite ./css/style.css 
+2014-06-20 22:38:43 overwrite ./css/style.css 
+2014-06-20 22:38:47 overwrite ./css/style.css 
+2014-06-20 22:38:56 overwrite ./css/style.css 
+2014-06-20 22:39:32 overwrite ./css/style.css 
+2014-06-20 22:39:44 overwrite ./css/style.css 
+2014-06-20 22:40:05 identical ./css/style.css 
+2014-06-20 22:40:06 identical ./css/style.css 
+2014-06-20 22:40:37 overwrite ./css/style.css 
+2014-06-20 22:40:48 overwrite ./css/style.css 
+2014-06-20 22:40:53 overwrite ./css/style.css 
+2014-06-20 22:40:59 overwrite ./css/style.css 
+2014-06-20 22:41:02 overwrite ./css/style.css 
+2014-06-20 22:41:20 overwrite ./css/style.css 
+2014-06-20 22:41:24 overwrite ./css/style.css 
+2014-06-20 22:41:37 overwrite ./css/style.css 
+2014-06-20 22:41:51 overwrite ./css/style.css 
+2014-06-20 22:42:01 overwrite ./css/style.css 
+2014-06-20 22:53:59 overwrite ./css/style.css 
+2014-06-22 18:39:56 overwrite ./css/style.css 
+2014-06-22 18:40:16 overwrite ./css/style.css 
+2014-06-22 18:40:26 overwrite ./css/style.css 
+2014-06-22 18:42:47 overwrite ./css/style.css 
+2014-06-22 18:43:06 overwrite ./css/style.css 
+2014-06-22 18:43:25 overwrite ./css/style.css 
+2014-06-22 18:43:37 overwrite ./css/style.css 
+2014-06-22 18:43:42 identical ./css/style.css 
+2014-06-22 18:43:51 overwrite ./css/style.css 
+2014-06-22 18:45:01 overwrite ./css/style.css 
+2014-06-22 18:45:14 overwrite ./css/style.css 
+2014-06-22 18:45:34 overwrite ./css/style.css 
+2014-06-22 18:45:55 overwrite ./css/style.css 
+2014-06-22 18:46:19 overwrite ./css/style.css 
+2014-06-22 18:49:47 overwrite ./css/style.css 
+2014-06-22 19:11:06 overwrite ./css/style.css 
+2014-06-23 06:39:28 overwrite ./css/style.css 
+2014-06-23 06:42:21 overwrite ./css/style.css 
+2014-06-23 06:44:38 overwrite ./css/style.css 
+2014-06-23 06:52:23 overwrite ./css/style.css 
+2014-06-23 07:12:24 overwrite ./css/style.css 
+2014-06-23 07:12:32 overwrite ./css/style.css 
+2014-07-08 20:52:56 overwrite ./css/style.css 
+2014-07-09 20:39:56 overwrite ./css/style.css 
+2014-07-10 19:49:43 overwrite ./css/style.css 
+2014-07-10 19:49:48 overwrite ./css/style.css 
+2014-07-10 19:59:19 overwrite ./css/style.css 
+2014-07-10 20:00:21 overwrite ./css/style.css 
+2014-07-10 20:00:51 overwrite ./css/style.css 
+2014-07-10 20:01:26 overwrite ./css/style.css 
+2014-07-10 20:01:53 overwrite ./css/style.css 
+2014-07-10 20:02:06     error sass/style.scss (Line 17: File to import not found or unreadable: part/page/mainPage.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:02:06 overwrite ./css/style.css 
+2014-07-10 20:02:06     error sass/style.scss (Line 17: File to import not found or unreadable: part/page/mainPage.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:02:06 identical ./css/style.css 
+2014-07-10 20:02:16     error sass/style.scss (Line 17: File to import not found or unreadable: part/page/mainPage.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:02:16 overwrite ./css/style.css 
+2014-07-10 20:02:16     error sass/style.scss (Line 17: File to import not found or unreadable: part/page/mainPage.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:02:16 identical ./css/style.css 
+2014-07-10 20:02:20     error sass/style.scss (Line 17: File to import not found or unreadable: part/page/mainPage.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:02:20 identical ./css/style.css 
+2014-07-10 20:02:21     error sass/style.scss (Line 17: File to import not found or unreadable: part/page/mainPage.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:02:21 identical ./css/style.css 
+2014-07-10 20:03:09     error sass/style.scss (Line 17: File to import not found or unreadable: part/page/mainPage.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:03:09 identical ./css/style.css 
+2014-07-10 20:03:09     error sass/style.scss (Line 17: File to import not found or unreadable: part/page/mainPage.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:03:09 identical ./css/style.css 
+2014-07-10 20:04:00     error sass/style.scss (Line 17: File to import not found or unreadable: page/projects.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:04:00 overwrite ./css/style.css 
+2014-07-10 20:04:00     error sass/style.scss (Line 17: File to import not found or unreadable: page/projects.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:04:00 identical ./css/style.css 
+2014-07-10 20:04:01     error sass/style.scss (Line 17: File to import not found or unreadable: page/projects.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:04:01 identical ./css/style.css 
+2014-07-10 20:05:33     error sass/style.scss (Line 18: File to import not found or unreadable: page/info.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:05:33 overwrite ./css/style.css 
+2014-07-10 20:05:37     error sass/style.scss (Line 17: File to import not found or unreadable: page/projects.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:05:37 overwrite ./css/style.css 
+2014-07-10 20:05:52 overwrite ./css/style.css 
+2014-07-10 20:06:17 identical ./css/style.css 
+2014-07-10 20:06:45     error sass/style.scss (Line 77 of sass/part/page/_projects.scss: Invalid CSS after "        .": expected class name, was "}")
+2014-07-10 20:06:45 overwrite ./css/style.css 
+2014-07-10 20:06:45     error sass/style.scss (Line 77 of sass/part/page/_projects.scss: Invalid CSS after "        .": expected class name, was "}")
+2014-07-10 20:06:45 identical ./css/style.css 
+2014-07-10 20:06:52 overwrite ./css/style.css 
+2014-07-10 20:07:12 identical ./css/style.css 
+2014-07-10 20:07:16 overwrite ./css/style.css 
+2014-07-10 20:07:42 overwrite ./css/style.css 
+2014-07-10 20:08:13 identical ./css/style.css 
+2014-07-10 20:08:28 identical ./css/style.css 
+2014-07-10 20:08:55 overwrite ./css/style.css 
+2014-07-10 20:09:12 overwrite ./css/style.css 
+2014-07-10 20:11:40 identical ./css/style.css 
+2014-07-10 20:12:01 overwrite ./css/style.css 
+2014-07-10 20:12:58 identical ./css/style.css 
+2014-07-10 20:13:45 overwrite ./css/style.css 
+2014-07-10 20:14:14 overwrite ./css/style.css 
+2014-07-10 20:16:24 overwrite ./css/style.css 
+2014-07-10 20:38:49 overwrite ./css/style.css 
+2014-07-10 20:39:43 identical ./css/style.css 
+2014-07-10 20:39:55 overwrite ./css/style.css 
+2014-07-10 20:40:06 overwrite ./css/style.css 
+2014-07-10 20:40:35 identical ./css/style.css 
+2014-07-10 20:40:41 overwrite ./css/style.css 
+2014-07-10 20:40:45 overwrite ./css/style.css 
+2014-07-10 20:40:55 overwrite ./css/style.css 
+2014-07-10 20:41:04 overwrite ./css/style.css 
+2014-07-10 20:42:18 identical ./css/style.css 
+2014-07-10 20:42:54     error sass/style.scss (Line 24: File to import not found or unreadable: part/projects/project-1.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:42:54 overwrite ./css/style.css 
+2014-07-10 20:43:13     error sass/style.scss (Line 24: File to import not found or unreadable: part/projects/project-1.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:43:13 identical ./css/style.css 
+2014-07-10 20:43:48     error sass/style.scss (Line 24: File to import not found or unreadable: part/projects/project-1.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:43:48 overwrite ./css/style.css 
+2014-07-10 20:43:48     error sass/style.scss (Line 24: File to import not found or unreadable: part/projects/project-1.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:43:48 identical ./css/style.css 
+2014-07-10 20:43:50     error sass/style.scss (Line 24: File to import not found or unreadable: part/projects/project-1.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:43:50 overwrite ./css/style.css 
+2014-07-10 20:43:50     error sass/style.scss (Line 24: File to import not found or unreadable: part/projects/project-1.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:43:50 identical ./css/style.css 
+2014-07-10 20:43:58     error sass/style.scss (Line 24: File to import not found or unreadable: part/projects/project-1.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:43:58 overwrite ./css/style.css 
+2014-07-10 20:43:58     error sass/style.scss (Line 24: File to import not found or unreadable: part/projects/project-1.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:43:58 identical ./css/style.css 
+2014-07-10 20:44:02     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:02 overwrite ./css/style.css 
+2014-07-10 20:44:02     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:02 identical ./css/style.css 
+2014-07-10 20:44:02     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:02 identical ./css/style.css 
+2014-07-10 20:44:03     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:03 identical ./css/style.css 
+2014-07-10 20:44:12     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:12 overwrite ./css/style.css 
+2014-07-10 20:44:12     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:12 identical ./css/style.css 
+2014-07-10 20:44:24     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:24 identical ./css/style.css 
+2014-07-10 20:44:24     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:24 identical ./css/style.css 
+2014-07-10 20:44:31     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:31 identical ./css/style.css 
+2014-07-10 20:44:32     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:32 identical ./css/style.css 
+2014-07-10 20:44:37     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:37 identical ./css/style.css 
+2014-07-10 20:44:38     error sass/style.scss (Line 25: File to import not found or unreadable: part/projects/project-2.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:38 identical ./css/style.css 
+2014-07-10 20:44:53     error sass/style.scss (Line 26: File to import not found or unreadable: part/projects/project-3.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:53 overwrite ./css/style.css 
+2014-07-10 20:44:53     error sass/style.scss (Line 26: File to import not found or unreadable: part/projects/project-3.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:53 identical ./css/style.css 
+2014-07-10 20:44:56     error sass/style.scss (Line 26: File to import not found or unreadable: part/projects/project-3.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:56 overwrite ./css/style.css 
+2014-07-10 20:44:57     error sass/style.scss (Line 26: File to import not found or unreadable: part/projects/project-3.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:57 identical ./css/style.css 
+2014-07-10 20:44:57     error sass/style.scss (Line 26: File to import not found or unreadable: part/projects/project-3.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:57 identical ./css/style.css 
+2014-07-10 20:44:57     error sass/style.scss (Line 26: File to import not found or unreadable: part/projects/project-3.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:44:57 identical ./css/style.css 
+2014-07-10 20:45:06     error sass/style.scss (Line 27: File to import not found or unreadable: part/projects/project-4.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:06 overwrite ./css/style.css 
+2014-07-10 20:45:06     error sass/style.scss (Line 27: File to import not found or unreadable: part/projects/project-4.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:06 identical ./css/style.css 
+2014-07-10 20:45:10     error sass/style.scss (Line 27: File to import not found or unreadable: part/projects/project-4.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:10 overwrite ./css/style.css 
+2014-07-10 20:45:10     error sass/style.scss (Line 27: File to import not found or unreadable: part/projects/project-4.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:10 identical ./css/style.css 
+2014-07-10 20:45:14     error sass/style.scss (Line 28: File to import not found or unreadable: part/projects/project-5.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:14 overwrite ./css/style.css 
+2014-07-10 20:45:14     error sass/style.scss (Line 28: File to import not found or unreadable: part/projects/project-5.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:14 identical ./css/style.css 
+2014-07-10 20:45:17     error sass/style.scss (Line 28: File to import not found or unreadable: part/projects/project-5.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:17 overwrite ./css/style.css 
+2014-07-10 20:45:17     error sass/style.scss (Line 28: File to import not found or unreadable: part/projects/project-5.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:17 identical ./css/style.css 
+2014-07-10 20:45:21     error sass/style.scss (Line 29: File to import not found or unreadable: part/projects/project-6.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:21 overwrite ./css/style.css 
+2014-07-10 20:45:21     error sass/style.scss (Line 29: File to import not found or unreadable: part/projects/project-6.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:21 identical ./css/style.css 
+2014-07-10 20:45:26     error sass/style.scss (Line 29: File to import not found or unreadable: part/projects/project-6.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:26 overwrite ./css/style.css 
+2014-07-10 20:45:26     error sass/style.scss (Line 29: File to import not found or unreadable: part/projects/project-6.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:26 identical ./css/style.css 
+2014-07-10 20:45:30     error sass/style.scss (Line 30: File to import not found or unreadable: part/projects/project-7.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:30 overwrite ./css/style.css 
+2014-07-10 20:45:30     error sass/style.scss (Line 30: File to import not found or unreadable: part/projects/project-7.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:30 identical ./css/style.css 
+2014-07-10 20:45:32     error sass/style.scss (Line 30: File to import not found or unreadable: part/projects/project-7.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:32 overwrite ./css/style.css 
+2014-07-10 20:45:32     error sass/style.scss (Line 30: File to import not found or unreadable: part/projects/project-7.
+Load paths:
+  /Applications/MAMP/htdocs/talkingwoods/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.0/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-07-10 20:45:32 identical ./css/style.css 
+2014-07-10 20:45:39 overwrite ./css/style.css 
+2014-07-10 20:46:06 overwrite ./css/style.css 
+2014-07-10 20:49:47 overwrite ./css/style.css 
+2014-07-10 20:50:13 overwrite ./css/style.css 
+2014-07-10 20:50:42 overwrite ./css/style.css 
+2014-07-10 20:51:29 overwrite ./css/style.css 
+2014-07-10 20:51:52 overwrite ./css/style.css 
+2014-07-10 20:52:28 identical ./css/style.css 
+2014-07-10 20:52:31 identical ./css/style.css 
+2014-07-10 20:53:05 identical ./css/style.css 
+2014-07-10 20:53:50 identical ./css/style.css 
+2014-07-10 20:53:52 identical ./css/style.css 
+2014-07-10 20:53:55 overwrite ./css/style.css 
+2014-07-10 20:53:57 identical ./css/style.css 
+2014-07-10 20:54:16     error sass/style.scss (Line 20 of sass/part/projects/_project-1.scss: Invalid CSS after "    top:": expected expression (e.g. 1px, bold), was "}")
+2014-07-10 20:54:16 overwrite ./css/style.css 
+2014-07-10 20:54:16     error sass/style.scss (Line 20 of sass/part/projects/_project-1.scss: Invalid CSS after "    top:": expected expression (e.g. 1px, bold), was "}")
+2014-07-10 20:54:16 identical ./css/style.css 
+2014-07-10 20:54:23 overwrite ./css/style.css 
+2014-07-10 20:54:56 overwrite ./css/style.css 
+2014-07-10 20:55:00 overwrite ./css/style.css 
+2014-07-10 20:55:52 overwrite ./css/style.css 
+2014-07-10 20:56:11 overwrite ./css/style.css 
+2014-07-10 20:57:33 overwrite ./css/style.css 
+2014-07-10 20:57:36 identical ./css/style.css 
+2014-07-10 20:58:30 overwrite ./css/style.css 
+2014-07-10 20:58:34 overwrite ./css/style.css 
+2014-07-10 20:58:55 overwrite ./css/style.css 
+2014-07-10 20:59:26     error sass/style.scss (Line 21 of sass/part/_fonts.scss: Invalid CSS after "    font-size: ": expected expression (e.g. 1px, bold), was ";")
+2014-07-10 20:59:26 overwrite ./css/style.css 
+2014-07-10 20:59:26     error sass/style.scss (Line 21 of sass/part/_fonts.scss: Invalid CSS after "    font-size: ": expected expression (e.g. 1px, bold), was ";")
+2014-07-10 20:59:26 identical ./css/style.css 
+2014-07-10 20:59:41 overwrite ./css/style.css 
+2014-07-10 20:59:57 overwrite ./css/style.css 
+2014-07-10 21:00:22 overwrite ./css/style.css 
+2014-07-10 21:01:12 overwrite ./css/style.css 
+2014-07-10 21:02:23 overwrite ./css/style.css 
+2014-07-10 21:02:30 overwrite ./css/style.css 
+2014-07-10 21:03:19 overwrite ./css/style.css 
+2014-07-10 21:03:25 overwrite ./css/style.css 
+2014-07-10 21:03:51 overwrite ./css/style.css 
+2014-07-10 21:04:17     error sass/style.scss (Line 10 of sass/part/_fonts.scss: Invalid CSS after "  letter-spacing: ": expected expression (e.g. 1px, bold), was ";")
+2014-07-10 21:04:17 overwrite ./css/style.css 
+2014-07-10 21:04:17     error sass/style.scss (Line 10 of sass/part/_fonts.scss: Invalid CSS after "  letter-spacing: ": expected expression (e.g. 1px, bold), was ";")
+2014-07-10 21:04:17 identical ./css/style.css 
+2014-07-10 21:04:24 overwrite ./css/style.css 
+2014-07-10 21:04:34 overwrite ./css/style.css 
+2014-07-10 21:06:08 identical ./css/style.css 
+2014-07-10 21:06:10 identical ./css/style.css 
+2014-07-10 21:06:19 overwrite ./css/style.css 
+2014-07-10 21:06:29 overwrite ./css/style.css 
+2014-07-10 21:06:36 identical ./css/style.css 
+2014-07-10 21:06:48 overwrite ./css/style.css 
+2014-07-10 21:07:12 overwrite ./css/style.css 
+2014-07-10 21:07:26 identical ./css/style.css 
+2014-07-10 21:07:36 overwrite ./css/style.css 
+2014-07-10 21:07:37 identical ./css/style.css 
+2014-07-10 21:07:44 overwrite ./css/style.css 
+2014-07-10 21:07:49 overwrite ./css/style.css 
+2014-07-10 21:07:52 identical ./css/style.css 
+2014-07-10 21:08:20 identical ./css/style.css 
+2014-07-10 21:09:29 overwrite ./css/style.css 
+2014-07-10 21:09:51 overwrite ./css/style.css 
+2014-07-10 21:09:56 overwrite ./css/style.css 
+2014-07-10 21:10:06 overwrite ./css/style.css 
+2014-07-10 21:10:10 overwrite ./css/style.css 
+2014-07-10 21:10:17 overwrite ./css/style.css 
+2014-07-10 21:10:38 overwrite ./css/style.css 
+2014-07-10 21:10:46 overwrite ./css/style.css 
+2014-07-10 21:10:59 overwrite ./css/style.css 
+2014-07-10 21:13:30     error sass/style.scss (Line 96 of sass/part/page/_projects.scss: Invalid CSS after "... margin-bottom:": expected expression (e.g. 1px, bold), was "}")
+2014-07-10 21:13:30 overwrite ./css/style.css 
+2014-07-10 21:13:31     error sass/style.scss (Line 96 of sass/part/page/_projects.scss: Invalid CSS after "... margin-bottom:": expected expression (e.g. 1px, bold), was "}")
+2014-07-10 21:13:31 identical ./css/style.css 
+2014-07-10 21:13:36 overwrite ./css/style.css 
+2014-07-10 21:14:02 overwrite ./css/style.css 
+2014-07-10 23:21:33 overwrite ./css/style.css 
+2014-07-10 23:21:36 overwrite ./css/style.css 
+2014-07-10 23:21:45 overwrite ./css/style.css 
+2014-07-10 23:22:24 overwrite ./css/style.css 
+2014-07-10 23:22:29 overwrite ./css/style.css 
+2014-07-10 23:22:34 overwrite ./css/style.css 
+2014-07-10 23:22:39 overwrite ./css/style.css 
+2014-07-10 23:22:45 overwrite ./css/style.css 
+2014-07-10 23:22:53 overwrite ./css/style.css 
+2014-07-10 23:22:55 overwrite ./css/style.css 
+2014-07-10 23:23:03 overwrite ./css/style.css 
+2014-07-10 23:23:08 overwrite ./css/style.css 
+2014-07-10 23:23:35 overwrite ./css/style.css 
+2014-07-10 23:24:30 overwrite ./css/style.css 
+2014-07-10 23:24:35 overwrite ./css/style.css 
+2014-07-10 23:24:55 overwrite ./css/style.css 
+2014-07-10 23:25:14 overwrite ./css/style.css 
+2014-07-10 23:25:37 overwrite ./css/style.css 
+2014-07-10 23:25:46 overwrite ./css/style.css 
+2014-07-10 23:25:49 overwrite ./css/style.css 
+2014-07-10 23:25:55 overwrite ./css/style.css 
+2014-07-10 23:25:58 overwrite ./css/style.css 
+2014-07-10 23:26:06 overwrite ./css/style.css 
+2014-07-10 23:26:08 overwrite ./css/style.css 
+2014-07-10 23:26:15 overwrite ./css/style.css 
+2014-07-10 23:26:20 overwrite ./css/style.css 
+2014-07-10 23:26:33 overwrite ./css/style.css 
+2014-07-10 23:26:46 overwrite ./css/style.css 
+2014-07-10 23:26:49 overwrite ./css/style.css 
+2014-07-10 23:27:24 overwrite ./css/style.css 
+2014-07-10 23:27:34 overwrite ./css/style.css 
+2014-07-10 23:27:50 overwrite ./css/style.css 
+2014-07-10 23:27:54 overwrite ./css/style.css 
+2014-07-10 23:27:59 overwrite ./css/style.css 
+2014-07-10 23:28:05 overwrite ./css/style.css 
+2014-07-10 23:28:13 overwrite ./css/style.css 
+2014-07-10 23:28:19 overwrite ./css/style.css 
+2014-07-10 23:28:21 overwrite ./css/style.css 
+2014-07-10 23:28:29 overwrite ./css/style.css 
+2014-07-10 23:28:31 overwrite ./css/style.css 
+2014-07-10 23:28:36 overwrite ./css/style.css 
+2014-07-10 23:29:42 overwrite ./css/style.css 
+2014-07-10 23:29:44 overwrite ./css/style.css 
+2014-07-10 23:29:56 overwrite ./css/style.css 
+2014-07-10 23:30:14 overwrite ./css/style.css 
+2014-07-10 23:30:17 overwrite ./css/style.css 
+2014-07-10 23:30:34 overwrite ./css/style.css 
+2014-07-10 23:31:06 overwrite ./css/style.css 
+2014-07-10 23:31:10 overwrite ./css/style.css 
+2014-07-10 23:31:12 overwrite ./css/style.css 
+2014-07-10 23:31:16 overwrite ./css/style.css 
+2014-07-10 23:31:20 overwrite ./css/style.css 
+2014-07-10 23:31:29 overwrite ./css/style.css 
+2014-07-10 23:31:31 overwrite ./css/style.css 
+2014-07-10 23:31:36 overwrite ./css/style.css 
+2014-07-10 23:31:42 overwrite ./css/style.css 
+2014-07-10 23:31:47 overwrite ./css/style.css 
+2014-07-10 23:31:49 overwrite ./css/style.css 
+2014-07-10 23:32:07 overwrite ./css/style.css 
+2014-07-10 23:33:16 overwrite ./css/style.css 
+2014-07-10 23:33:31 overwrite ./css/style.css 
+2014-07-10 23:33:37 overwrite ./css/style.css 
+2014-07-10 23:33:43 overwrite ./css/style.css 
+2014-07-10 23:33:46 overwrite ./css/style.css 
+2014-07-10 23:33:52 overwrite ./css/style.css 
+2014-07-10 23:33:55 overwrite ./css/style.css 
+2014-07-10 23:34:03 overwrite ./css/style.css 
+2014-07-10 23:34:10 overwrite ./css/style.css 
+2014-07-10 23:34:13 overwrite ./css/style.css 
+2014-07-10 23:34:20 overwrite ./css/style.css 
+2014-07-10 23:34:26 overwrite ./css/style.css 
+2014-07-10 23:34:45 overwrite ./css/style.css 
+2014-07-10 23:35:07 overwrite ./css/style.css 
+2014-07-10 23:35:27 overwrite ./css/style.css 
+2014-07-10 23:35:43 overwrite ./css/style.css 
+2014-07-10 23:35:44 identical ./css/style.css 
+2014-07-10 23:35:53 overwrite ./css/style.css 
+2014-07-10 23:36:49 overwrite ./css/style.css 
+2014-07-10 23:38:07 overwrite ./css/style.css 
+2014-07-10 23:38:18 overwrite ./css/style.css 
+2014-07-10 23:38:26 overwrite ./css/style.css 
+2014-07-10 23:38:29 overwrite ./css/style.css 
+2014-07-10 23:38:33 overwrite ./css/style.css 
+2014-07-10 23:38:36 overwrite ./css/style.css 
+2014-07-10 23:38:40 overwrite ./css/style.css 
+2014-07-10 23:38:46 overwrite ./css/style.css 
+2014-07-10 23:38:48 overwrite ./css/style.css 
+2014-07-10 23:38:50 overwrite ./css/style.css 
+2014-07-10 23:39:18 overwrite ./css/style.css 
+2014-07-10 23:39:20 overwrite ./css/style.css 
+2014-07-10 23:39:59 overwrite ./css/style.css 
+2014-07-10 23:47:47 overwrite ./css/style.css 
+2014-07-10 23:48:05 overwrite ./css/style.css 
+2014-07-10 23:48:08 identical ./css/style.css 
+2014-07-10 23:48:14 overwrite ./css/style.css 
+2014-07-10 23:48:20 overwrite ./css/style.css 
+2014-07-10 23:48:26 overwrite ./css/style.css 
+2014-07-10 23:48:38 overwrite ./css/style.css 
+2014-07-10 23:48:46 overwrite ./css/style.css 
+2014-07-10 23:48:56 overwrite ./css/style.css 
+2014-07-10 23:49:01 overwrite ./css/style.css 
+2014-07-10 23:49:10 overwrite ./css/style.css 
+2014-07-10 23:49:14 overwrite ./css/style.css 
+2014-07-10 23:49:15 identical ./css/style.css 
+2014-07-10 23:49:30 identical ./css/style.css 
+2014-07-10 23:50:00 overwrite ./css/style.css 
+2014-07-10 23:50:13 overwrite ./css/style.css 
+2014-07-10 23:50:34 overwrite ./css/style.css 
+2014-07-10 23:50:49 overwrite ./css/style.css 
+2014-07-10 23:50:52 overwrite ./css/style.css 
+2014-07-10 23:50:55 identical ./css/style.css 
+2014-07-10 23:51:26 overwrite ./css/style.css 
+2014-07-10 23:53:00 identical ./css/style.css 
+2014-07-10 23:53:11 overwrite ./css/style.css 
+2014-07-10 23:53:17 overwrite ./css/style.css 
+2014-07-10 23:53:23 overwrite ./css/style.css 
+2014-07-10 23:54:13 overwrite ./css/style.css 
+2014-07-10 23:54:31 overwrite ./css/style.css 
+2014-07-10 23:55:17 identical ./css/style.css 
+2014-07-10 23:55:29 overwrite ./css/style.css 
+2014-07-10 23:55:40 overwrite ./css/style.css 
+2014-07-10 23:56:25 overwrite ./css/style.css 
+2014-07-10 23:56:32 overwrite ./css/style.css 
+2014-07-10 23:56:35 overwrite ./css/style.css 
+2014-07-10 23:56:48 overwrite ./css/style.css 
+2014-07-10 23:56:51 overwrite ./css/style.css 
+2014-07-10 23:57:07 overwrite ./css/style.css 
+2014-07-10 23:57:14 overwrite ./css/style.css 
+2014-07-10 23:57:40 overwrite ./css/style.css 
+2014-07-10 23:57:46 overwrite ./css/style.css 
+2014-07-10 23:57:51 overwrite ./css/style.css 
+2014-07-10 23:57:54 overwrite ./css/style.css 
+2014-07-10 23:58:06 overwrite ./css/style.css 
+2014-07-10 23:58:18 overwrite ./css/style.css 
+2014-07-10 23:58:41 overwrite ./css/style.css 
+2014-07-10 23:58:49 overwrite ./css/style.css 
+2014-07-10 23:59:04 overwrite ./css/style.css 
+2014-07-10 23:59:14 overwrite ./css/style.css 
+2014-07-11 11:57:05 identical ./css/style.css 
+2014-07-11 11:57:24 identical ./css/style.css 
+2014-07-11 11:57:40 overwrite ./css/style.css 
+2014-07-11 11:57:43 overwrite ./css/style.css 
+2014-07-11 11:57:47     error sass/style.scss (Line 21 of sass/part/_main.scss: Invalid CSS after "  url": expected "{", was "("./img/arrow-l...")
+2014-07-11 11:57:47 overwrite ./css/style.css 
+2014-07-11 11:57:47     error sass/style.scss (Line 21 of sass/part/_main.scss: Invalid CSS after "  url": expected "{", was "("./img/arrow-l...")
+2014-07-11 11:57:47 identical ./css/style.css 
+2014-07-11 11:57:53 overwrite ./css/style.css 
+2014-07-11 11:57:55 overwrite ./css/style.css 
+2014-07-11 11:58:14 identical ./css/style.css 
+2014-07-11 11:58:58 identical ./css/style.css 
+2014-07-11 12:01:41 overwrite ./css/style.css 
+2014-07-11 12:02:23 overwrite ./css/style.css 
+2014-07-11 12:28:39 overwrite ./css/style.css 
+2014-07-11 12:29:24 overwrite ./css/style.css 
+2014-07-11 12:49:04 overwrite ./css/style.css 
+2014-07-11 12:50:49     error sass/style.scss (Line 14 of sass/part/page/_video.scss: Invalid CSS after "@base-font-size:": expected pseudoclass or pseudoelement, was " 10px;")
+2014-07-11 12:50:49 overwrite ./css/style.css 
+2014-07-11 12:50:49     error sass/style.scss (Line 14 of sass/part/page/_video.scss: Invalid CSS after "@base-font-size:": expected pseudoclass or pseudoelement, was " 10px;")
+2014-07-11 12:50:49 identical ./css/style.css 
+2014-07-11 12:52:13     error sass/style.scss (Line 5 of sass/part/page/_video.scss: Invalid CSS after " InSuperposition /": expected identifier, was " SassMeister-in...")
+2014-07-11 12:52:13 overwrite ./css/style.css 
+2014-07-11 12:52:13     error sass/style.scss (Line 5 of sass/part/page/_video.scss: Invalid CSS after " InSuperposition /": expected identifier, was " SassMeister-in...")
+2014-07-11 12:52:13 identical ./css/style.css 
+2014-07-11 12:52:42 overwrite ./css/style.css 
+2014-07-11 12:56:45 identical ./css/style.css 
+2014-07-11 12:56:51 overwrite ./css/style.css 
+2014-07-11 12:56:54 overwrite ./css/style.css 
+2014-07-11 13:00:43 overwrite ./css/style.css 
+2014-07-11 13:00:47 overwrite ./css/style.css 
+2014-07-11 13:02:36 overwrite ./css/style.css 
+2014-07-11 13:09:10 identical ./css/style.css 
+2014-07-11 13:11:12 overwrite ./css/style.css 
+2014-07-11 13:11:50 overwrite ./css/style.css 
+2014-07-11 13:13:46 overwrite ./css/style.css 
+2014-07-11 13:13:50 overwrite ./css/style.css 
+2014-07-11 13:16:16 overwrite ./css/style.css 
+2014-07-11 13:33:32 overwrite ./css/style.css 
+2014-07-11 13:35:44 overwrite ./css/style.css 
+2014-07-11 13:52:42 overwrite ./css/style.css 
+2014-07-11 13:52:51 overwrite ./css/style.css 
+2014-07-11 13:52:54 overwrite ./css/style.css 
+2014-07-11 13:54:22 overwrite ./css/style.css 
+2014-07-11 14:06:07 overwrite ./css/style.css 
+2014-07-11 14:09:54 overwrite ./css/style.css 
+2014-07-11 14:10:34 overwrite ./css/style.css 
+2014-07-11 14:11:20 overwrite ./css/style.css 
+2014-07-11 14:11:31 overwrite ./css/style.css 
+2014-07-11 14:11:35 overwrite ./css/style.css 
+2014-07-11 14:11:55 overwrite ./css/style.css 
+2014-07-11 14:12:37 overwrite ./css/style.css 
+2014-07-11 14:13:12 overwrite ./css/style.css 
+2014-07-11 14:13:24 overwrite ./css/style.css 
+2014-07-11 14:15:13 overwrite ./css/style.css 
+2014-07-11 14:15:45 overwrite ./css/style.css 
+2014-07-11 14:15:59 overwrite ./css/style.css 
+2014-07-11 14:17:57 overwrite ./css/style.css 
+2014-07-11 14:18:16 overwrite ./css/style.css 
+2014-07-11 14:20:27 overwrite ./css/style.css 
+2014-07-11 14:23:48 overwrite ./css/style.css 
+2014-07-11 14:24:57 overwrite ./css/style.css 
+2014-07-11 14:25:51 overwrite ./css/style.css 
+2014-07-11 14:28:37 overwrite ./css/style.css 

@@ -1,0 +1,45 @@
+
+
+#info {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+
+  h1 {
+    position: absolute;
+  }
+
+  h1 {
+    font-size: 39px;
+    letter-spacing: 2px;
+    top: 150px;
+    left: 150px;
+  }
+  .content {
+    position: relative;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    p {
+
+
+    }
+  }
+
+  .keyword1 {
+    position: absolute;
+    left: 13%;
+    top: 8%;
+  }
+
+  .contact {
+    position: absolute;
+    right: 6%;
+    top: 70%;
+  }
+}

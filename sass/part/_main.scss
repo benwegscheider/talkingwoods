@@ -1,0 +1,89 @@
+
+$heading-size: 40px;
+
+html, body {
+  font-family: Helvetica;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+}
+
+body.left {
+  cursor: url("../img/arrow-left.png"), auto;
+}
+
+body.right {
+  cursor: url("../img/arrow-right.png"), auto;
+}
+
+h1, h2, h3, p, a {
+  color: #000;
+  text-transform: uppercase;
+}
+
+#loader {
+  display: block;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+
+  img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+
+.centerwrap {
+  display: table;
+  height: 100%;
+  width: 100%;
+
+  .center {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+
+
+#video {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+#border {
+  position: absolute;
+  display: none;
+  z-index: 7;
+  width: 600px;
+  height: 420px;
+  border: 7px solid;
+  border-color: #fff;
+  top: 50%;
+  margin-top: -210px;
+  left: 50%;
+  margin-left: -300px;
+  pointer-events: none;
+}
+
+#info {
+  h1, p {
+  }
+
+}
