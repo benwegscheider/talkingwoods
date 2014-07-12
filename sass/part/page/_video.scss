@@ -300,8 +300,8 @@ The default control bar that is a container for most of the controls.
   right: 0;
   /* Height includes any margin you want above or below control items *///
   height: 3.0em;
-
-  @include background-color-with-alpha($control-bg-color, $control-bg-alpha);
+  background-color: #000;
+  //@include background-color-with-alpha($control-bg-color, $control-bg-alpha);
 }
 
 /* Show the control bar only once the video has started playing */

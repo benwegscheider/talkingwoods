@@ -85,7 +85,7 @@ define([
             //direction can left right up or down
             var oldProject = this.stateModel.get('project');
 
-            console.log("project : "+oldProject);
+//            console.log("project : "+oldProject);
 
             if (type == 'down') {
                 if (!this.animatingDown && oldProject+1 <= this.projects.length-1) {
@@ -101,7 +101,10 @@ define([
 
                         if (i != this.stateModel.get('project')) {
                             this.projects[i].resetSlides();
-                    }}
+                        }
+                    }
+                    var that = this;
+                    setTimeout(function() {that.animatingDown = false;}, 1300 );
                 }
 
 
@@ -119,18 +122,20 @@ define([
 
                         if (i != this.stateModel.get('project')) {
                             this.projects[i].resetSlides();
-                        }}
+                        }
+                    }
+                    var that = this;
+                    setTimeout(function() {that.animatingDown = false;}, 1300 );
                 }
-
-
             }
+
         },
 
         onProjectChange: function() {
             console.log("onProjectChange");
 
             TweenMax.to(this.$projectWrap, 0.9, {y: -this.stateModel.get('project')*this.displayModel.get('height'), ease: Cubic.easeInOut, force3D: true, onCompleteScope: this, onComplete: function() {
-                this.animatingDown = false;
+//                this.animatingDown = false;
 
             }});
         },

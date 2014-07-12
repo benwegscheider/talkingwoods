@@ -18,7 +18,7 @@ define([
 
             this.type = options.type;
 
-            console.log('### GalleryImageView.initialize: ', arguments);
+//            console.log('### GalleryImageView.initialize: ', arguments);
 
             this.type = this.$el.attr('data-type');
 
@@ -50,7 +50,7 @@ define([
                 else if (this.type == 'text') {
                     this.$element = this.$el.find('.item');
 
-                    this.$element.css('width', 600);
+                    this.$element.css('width', 700);
                     this.$element.css('margin', '0 auto');
 
                     var structure = '<div class="centerwrap"><div class="center"></div></div>';

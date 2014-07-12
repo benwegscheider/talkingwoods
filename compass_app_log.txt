@@ -1570,3 +1570,78 @@ Load paths:
 2014-07-11 16:47:47 overwrite ./css/style.css 
 2014-07-11 16:48:04 overwrite ./css/style.css 
 2014-07-11 16:48:18 identical ./css/style.css 
+2014-07-12 17:13:56 overwrite ./css/style.css 
+2014-07-13 00:12:15 overwrite ./css/style.css 
+2014-07-13 00:12:19 overwrite ./css/style.css 
+2014-07-13 00:12:24 overwrite ./css/style.css 
+2014-07-13 00:12:39 overwrite ./css/style.css 
+2014-07-13 00:12:47 identical ./css/style.css 
+2014-07-13 00:13:53 overwrite ./css/style.css 
+2014-07-13 00:13:55 overwrite ./css/style.css 
+2014-07-13 00:13:58 identical ./css/style.css 
+2014-07-13 00:15:23 overwrite ./css/style.css 
+2014-07-13 00:17:33 overwrite ./css/style.css 
+2014-07-13 00:18:17 overwrite ./css/style.css 
+2014-07-13 00:18:45 overwrite ./css/style.css 
+2014-07-13 00:19:42 overwrite ./css/style.css 
+2014-07-13 00:21:15 overwrite ./css/style.css 
+2014-07-13 00:21:18 overwrite ./css/style.css 
+2014-07-13 00:21:33 overwrite ./css/style.css 
+2014-07-13 00:22:58 overwrite ./css/style.css 
+2014-07-13 00:23:07     error sass/style.scss (Line 32 of sass/part/page/_menu.scss: Invalid CSS after "    margin-top: ": expected expression (e.g. 1px, bold), was ";")
+2014-07-13 00:23:07 overwrite ./css/style.css 
+2014-07-13 00:23:07     error sass/style.scss (Line 32 of sass/part/page/_menu.scss: Invalid CSS after "    margin-top: ": expected expression (e.g. 1px, bold), was ";")
+2014-07-13 00:23:07 identical ./css/style.css 
+2014-07-13 00:23:14     error sass/style.scss (Line 38 of sass/part/page/_menu.scss: Illegal nesting: Only properties may be nested beneath properties.)
+2014-07-13 00:23:14 overwrite ./css/style.css 
+2014-07-13 00:23:21 overwrite ./css/style.css 
+2014-07-13 00:25:29 overwrite ./css/style.css 
+2014-07-13 00:25:52 overwrite ./css/style.css 
+2014-07-13 00:27:22 overwrite ./css/style.css 
+2014-07-13 00:28:05 overwrite ./css/style.css 
+2014-07-13 00:28:33 overwrite ./css/style.css 
+2014-07-13 00:29:19 overwrite ./css/style.css 
+2014-07-13 00:31:39 overwrite ./css/style.css 
+2014-07-13 00:33:33 overwrite ./css/style.css 
+2014-07-13 00:33:48 overwrite ./css/style.css 
+2014-07-13 00:33:52 overwrite ./css/style.css 
+2014-07-13 00:34:19 overwrite ./css/style.css 
+2014-07-13 00:34:42 overwrite ./css/style.css 
+2014-07-13 00:35:53 overwrite ./css/style.css 
+2014-07-13 00:36:21 overwrite ./css/style.css 
+2014-07-13 00:36:24 identical ./css/style.css 
+2014-07-13 00:38:08 overwrite ./css/style.css 
+2014-07-13 00:38:17 overwrite ./css/style.css 
+2014-07-13 00:38:28 overwrite ./css/style.css 
+2014-07-13 00:38:35 overwrite ./css/style.css 
+2014-07-13 00:40:37 overwrite ./css/style.css 
+2014-07-13 00:40:51 overwrite ./css/style.css 
+2014-07-13 00:41:00 overwrite ./css/style.css 
+2014-07-13 00:41:08 overwrite ./css/style.css 
+2014-07-13 00:41:11     error sass/style.scss (Line 77 of sass/part/_fonts.scss: Invalid CSS after "...r-spacing: 3p;x": expected "{", was "}")
+2014-07-13 00:41:11 overwrite ./css/style.css 
+2014-07-13 00:41:12     error sass/style.scss (Line 77 of sass/part/_fonts.scss: Invalid CSS after "...r-spacing: 3p;x": expected "{", was "}")
+2014-07-13 00:41:12 identical ./css/style.css 
+2014-07-13 00:41:13 overwrite ./css/style.css 
+2014-07-13 00:41:47 overwrite ./css/style.css 
+2014-07-13 00:43:06 overwrite ./css/style.css 
+2014-07-13 00:44:46 overwrite ./css/style.css 
+2014-07-13 00:44:54 overwrite ./css/style.css 
+2014-07-13 00:44:57 overwrite ./css/style.css 
+2014-07-13 00:45:12 overwrite ./css/style.css 
+2014-07-13 00:45:27 overwrite ./css/style.css 
+2014-07-13 00:46:19 overwrite ./css/style.css 
+2014-07-13 00:47:53 overwrite ./css/style.css 
+2014-07-13 00:49:05 overwrite ./css/style.css 
+2014-07-13 00:49:06 overwrite ./css/style.css 
+2014-07-13 00:56:27     error sass/style.scss (Line 22 of sass/part/_fonts.scss: Invalid CSS after "}": expected selector or at-rule, was "}")
+2014-07-13 00:56:27 overwrite ./css/style.css 
+2014-07-13 00:56:27     error sass/style.scss (Line 22 of sass/part/_fonts.scss: Invalid CSS after "}": expected selector or at-rule, was "}")
+2014-07-13 00:56:27 identical ./css/style.css 
+2014-07-13 00:56:29 overwrite ./css/style.css 
+2014-07-13 00:56:31 identical ./css/style.css 
+2014-07-13 00:58:48 overwrite ./css/style.css 
+2014-07-13 01:00:38 overwrite ./css/style.css 
+2014-07-13 01:00:44 overwrite ./css/style.css 
+2014-07-13 01:00:59 overwrite ./css/style.css 
+2014-07-13 01:01:09 overwrite ./css/style.css 

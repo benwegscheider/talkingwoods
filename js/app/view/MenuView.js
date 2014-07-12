@@ -40,12 +40,12 @@ define([
                 this.stateModel.trigger('project');
             }
 
-            else if (btn == 'Video') {
+            else if (btn == 'Film') {
                 this.stateModel.set('status', 'video');
                 this.stateModel.set('menu', false);
             }
 
-            else if (btn == 'Informationen') {
+            else if (btn == 'Idee') {
                 this.stateModel.set('status', 'info');
                 this.stateModel.set('menu', false);
             }

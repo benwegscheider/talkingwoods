@@ -6,9 +6,10 @@ define([
     'view/ProjectThreadView',
     'view/VideoView',
     'view/MenuView',
+    'utils/GestureManager',
     'utils/ImageAssetPreloader',
     'common'
-], function(BaseView, LandingView, PreloaderView, InfoView, ProjectThreadView, VideoView, MenuView) {
+], function(BaseView, LandingView, PreloaderView, InfoView, ProjectThreadView, VideoView, MenuView, GestureManager) {
     var OverView = BaseView.extend({
 
         preloaderView: null,
@@ -20,10 +21,14 @@ define([
         projectThreadView: null,
         videoView: null,
 
+        gestureManager: null,
+
         $border: null,
 
         menuView: null,
         $menuLink: null,
+
+        animatingDown: false,
 
         imageAssetPreloader: null,
 
@@ -76,12 +81,42 @@ define([
             this.stateModel.on('change:project', this.onProjectChange);
             this.stateModel.on('change:inproject', this.onInProjectChange);
 
+            this.gestureManager = new GestureManager({$el: this.$el, autoEnable: true, autoStart: true});
+            this.gestureManager.on('gesture', this.onGesture);
+
             this.render();
         },
 
         render: function() {
 
             return this;
+        },
+
+        onGesture: function(type, direction, $target) {
+            var that = this;
+
+            if (this.stateModel.get('status') == 'start') {
+                if (type == 'down') {
+                    if (!this.animatingDown) {
+                        this.animatingDown = true;
+
+                        this.stateModel.set('status', 'projekte');
+                        this.stateModel.set('menu', false);
+
+
+                        setTimeout(function() {that.animatingDown = false;}, 1000 );
+                    }
+                }
+                else if (type == 'up') {
+                    if (!this.animatingDown ) {
+                        this.animatingDown = true;
+
+                        setTimeout(function() {that.animatingDown = false;}, 1000 );
+                    }
+                }
+            }
+
+
         },
 
         statusChange: function() {
@@ -167,8 +202,6 @@ define([
                     this.projectThreadView.projects[i].projectModel.set('slide', 0);
                 }
 
-                TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
-
                 TweenMax.to(this.projectThreadView.projectIndication.$text, 1, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
                 TweenMax.to(this.$menuLink, 1, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color'), borderColor: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
                 TweenMax.to(this.$border, 1, {borderColor: this.projectThreadView.projects[0].$el.attr('data-color'), opacity: 1, ease: Linear.easeNone});
@@ -176,27 +209,43 @@ define([
 
 
                 if (this.landingView.$el.css('display') == 'block') {
-                    this.landingView.$el.fadeOut(1000);
                     this.landingView.pause();
+                    TweenMax.to( this.landingView.$el, 1.3,{y: -this.displayModel.get('height'), ease: Cubic.easeInOut, force3D: true, onCompleteScope:this, onComplete: function() {
+                        TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
+
+                    }});
                 }
                 if (this.infoView.$el.css('display') == 'block') {
-                    this.infoView.$el.fadeOut();
+//                    this.infoView.$el.fadeOut();
+                    TweenMax.to( this.infoView.$el, 1.3,{y: -this.displayModel.get('height'), ease: Cubic.easeInOut, force3D: true, onCompleteScope:this, onComplete: function() {
+
+                    }});
                 }
                 if (this.videoView.$el.css('display') == 'block') {
-                    this.videoView.$el.fadeOut();
                     this.videoView.pause();
+                    TweenMax.to( this.videoView.$el, 1.3,{y: -this.displayModel.get('height'), ease: Cubic.easeInOut, force3D: true, onCompleteScope:this, onComplete: function() {
+//                        TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
+
+                    }});
                 }
 
                 this.projectThreadView.$el.css('opacity', 0);
                 this.projectThreadView.$el.css('display', 'block');
+                TweenMax.to(this.projectThreadView.$el, 0.9, {autoAlpha: 1, delay: 0.8, ease: Linear.easeNone});
 
-                TweenMax.to(this.projectThreadView.$el, 1, {autoAlpha: 1, opacity: 1, ease: Linear.easeNone});
+//                TweenMax.to(this.projectThreadView.$el, 1, {autoAlpha: 1,  ease: Linear.easeNone});
 
 //                this.projectThreadView.$el.fadeIn();
             }
 
             else if (status == 'info') {
-                this.infoView.$el.fadeIn(1000);
+                this.infoView.$el.css('opacity', 0).css('display', 'block');
+                TweenMax.to( this.infoView.$el, 0,{y: this.displayModel.get('height'), ease: Cubic.easeInOut, force3D: true, onCompleteScope:this, onComplete: function() {}});
+                TweenMax.to( this.infoView.$el, 1.3,{y: 0, autoAlpha: 1, ease: Cubic.easeInOut, force3D: true, onCompleteScope:this, onComplete: function() {
+//                        TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
+
+                }});
+
                 $('body').css('overflow', 'auto');
 
                 TweenMax.to(this.$menuLink, 1, {css: {color: this.infoView.$el.attr('data-color'), borderColor: this.infoView.$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});

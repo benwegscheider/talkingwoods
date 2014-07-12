@@ -69,7 +69,6 @@
           color: #fff;
           display: block;
           text-align: center;
-          letter-spacing: 2px;
         }
 
         .keyword1, .keyword2, .sub {
@@ -97,12 +96,7 @@
 
 
           h2 {
-            float: left;
             margin-bottom: 80px;
-          }
-
-          .kapitel {
-            float: right;
           }
 
           p {
@@ -111,9 +105,9 @@
             margin: 0 auto;
             display: block;
             height: auto;
-            width: 500px;
             text-align: center;
             text-transform: none;
+
           }
         }
       }

@@ -156,12 +156,22 @@ p { font-size: 15px; letter-spacing: 2px; line-height: 22px; }
 
 .keyword1, .keyword2 { font-family: Times; font-size: 20px; letter-spacing: 4px; }
 
-.sub { font-family: Times; font-size: 15px; font-style: italic; line-height: 22px; letter-spacing: 4px; text-decoration: underline; }
+.sub { font-family: Times; font-family: Times; font-size: 18px; font-style: italic; line-height: 27px; letter-spacing: 5px; font-weight: bold; }
 
 .kapitel { font-size: 15px; text-transform: uppercase; letter-spacing: 2px; }
 
-.element h2 { font-size: 38px; font-weight: bold; line-height: 47px; text-align: center; letter-spacing: 5px; }
-.element .item h2 { font-family: Times; font-size: 28px; line-height: 34px; text-align: left; }
+#menuLink { font-size: 13px; letter-spacing: 3.5px; border: none; }
+#menuLink:hover { border-bottom: 2px solid; }
+
+#menuWrap h1 { font-family: Helvetica; font-style: normal; font-size: 28px; font-weight: bold; letter-spacing: 17px; }
+#menuWrap a { font-family: "Times New Roman"; letter-spacing: 5px; font-style: italic; font-size: 13px; }
+
+.element h1 { font-family: "Times New Roman"; font-weight: bold; font-size: 28px; letter-spacing: 4px; }
+.element h2 { font-size: 46px; font-weight: bold; line-height: 57px; text-align: center; letter-spacing: 5px; }
+.element .item h2 { font-family: Times; font-size: 28px; line-height: 34px; }
+.element h3, .element p { font-size: 28px; line-height: 41px; font-family: "Times New Roman"; font-weight: bold; text-transform: none; }
+.element p { letter-spacing: 3px; }
+.element h3 { text-transform: uppercase; letter-spacing: 4px; text-align: center; margin-top: 0; padding-top: 0; }
 
 #info p { font-size: 15px; text-transform: none; line-height: 24px; text-align: center; }
 #info .dick { font-size: 18px; font-weight: bold; }
@@ -186,7 +196,7 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 
 #video { position: absolute; top: 0; left: 0; }
 
-#border { position: absolute; display: none; z-index: 7; width: 600px; height: 420px; border: 7px solid; border-color: #fff; top: 50%; margin-top: -210px; left: 50%; margin-left: -300px; pointer-events: none; }
+#border { position: absolute; display: none; z-index: 7; width: 700px; height: 490px; border: 7px solid; border-color: #fff; top: 50%; margin-top: -245px; left: 50%; margin-left: -350px; pointer-events: none; }
 
 #user-form { padding: 50px; }
 
@@ -200,14 +210,13 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 #projects .project .descr p { left: 60px; bottom: 60px; width: 50%; letter-spacing: 1px; line-height: 26px; text-transform: uppercase; }
 #projects .project .elements { position: absolute; top: 0; left: 0; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 #projects .project .elements .element { position: absolute; display: block; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
-#projects .project .elements .element h3 { color: #fff; display: block; text-align: center; letter-spacing: 2px; }
+#projects .project .elements .element h3 { color: #fff; display: block; text-align: center; }
 #projects .project .elements .element .keyword1, #projects .project .elements .element .keyword2, #projects .project .elements .element .sub { position: absolute; }
 #projects .project .elements .element img { position: relative; margin: 0 auto; display: block; height: auto; }
 #projects .project .elements .element .format { position: absolute; }
 #projects .project .elements .element h2 { max-width: 600px; margin: 0 auto; }
-#projects .project .elements .element .item h2 { float: left; margin-bottom: 80px; }
-#projects .project .elements .element .item .kapitel { float: right; }
-#projects .project .elements .element .item p { clear: both; position: relative; margin: 0 auto; display: block; height: auto; width: 500px; text-align: center; text-transform: none; }
+#projects .project .elements .element .item h2 { margin-bottom: 80px; }
+#projects .project .elements .element .item p { clear: both; position: relative; margin: 0 auto; display: block; height: auto; text-align: center; text-transform: none; }
 
 #info { display: none; position: absolute; top: 0; left: 0; width: 100%; min-height: 100%; }
 #info h1 { position: absolute; }
@@ -222,14 +231,14 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 
 #menuWrap { position: absolute; top: 0; left: 0; display: none; z-index: 6; }
 #menuWrap h1, #menuWrap p, #menuWrap a { color: white; }
-#menuWrap h1 { text-align: center; letter-spacing: 4px; z-index: 101; position: relative; text-transform: uppercase; margin-bottom: 20px; font-size: 39px; }
+#menuWrap h1 { text-align: center; z-index: 101; position: relative; text-transform: uppercase; margin-bottom: 20px; }
 #menuWrap .menuBtn { text-decoration: none; }
-#menuWrap #menu { position: relative; z-index: 101; padding: 0; text-align: center; letter-spacing: 1px; }
-#menuWrap #menu li { display: inline; margin: 0 10px; }
-#menuWrap #menu li a { font-size: 14px; text-transform: uppercase; padding: 8px 10px; letter-spacing: 2px; font-style: italic; }
+#menuWrap #menu { position: relative; z-index: 101; padding: 0; text-align: center; letter-spacing: 1px; margin-top: 20px; }
+#menuWrap #menu li { display: inline; margin: 0 26px; }
+#menuWrap #menu li a { text-transform: uppercase; padding: 8px 10px; }
 #menuWrap #menu li a:hover { border-bottom: 2px solid white; }
 
-#menuLink { position: fixed; top: 30px; text-align: center; display: none; left: 50%; margin-left: -80px; z-index: 101; text-decoration: none; border-bottom: 2px solid white; letter-spacing: 2px; }
+#menuLink { position: fixed; top: 30px; text-align: center; display: none; left: 50%; margin-left: -80px; z-index: 101; text-decoration: none; letter-spacing: 2px; }
 
 #video { display: none; position: absolute; top: 0; left: 0; }
 
@@ -274,7 +283,7 @@ The control icons are from a custom font. Each icon corresponds to a character
 --------------------------------------------------------------------------------
 The default control bar that is a container for most of the controls.
 */
-.vjs-default-skin .vjs-control-bar { /* Start hidden */ display: none; position: absolute; /* Place control bar at the bottom of the player box/video. If you want more margin below the control bar, add more height. */ bottom: 0; /* Use left/right to stretch to 100% width of player div */ left: 0; right: 0; /* Height includes any margin you want above or below control items */ height: 3.0em; /* background-color-with-alpha */ background-color: #07141e; background-color: rgba(7, 20, 30, 0.7); }
+.vjs-default-skin .vjs-control-bar { /* Start hidden */ display: none; position: absolute; /* Place control bar at the bottom of the player box/video. If you want more margin below the control bar, add more height. */ bottom: 0; /* Use left/right to stretch to 100% width of player div */ left: 0; right: 0; /* Height includes any margin you want above or below control items */ height: 3.0em; background-color: #000; }
 
 /* Show the control bar only once the video has started playing */
 .vjs-default-skin.vjs-has-started .vjs-control-bar { display: block; /* Visibility needed to make sure things hide in older browsers too. */ visibility: visible; opacity: 1; /* transition */ -webkit-transition: visibility 0.1s, opacity 0.1s; -moz-transition: visibility 0.1s, opacity 0.1s; -o-transition: visibility 0.1s, opacity 0.1s; transition: visibility 0.1s, opacity 0.1s; }

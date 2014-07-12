@@ -11,12 +11,12 @@
 
   h1 {
     text-align: center;
-    letter-spacing: 4px;
+
     z-index: 101;
     position: relative;
     text-transform: uppercase;
     margin-bottom: 20px;
-    font-size: 39px;
+
   }
 
   .menuBtn {
@@ -29,17 +29,15 @@
     padding: 0;
     text-align: center;
     letter-spacing: 1px;
+    margin-top: 20px;
 
     li {
       display: inline;
-      margin: 0 10px;
+      margin: 0 26px;
 
       a {
-        font-size: 14px;
         text-transform: uppercase;
         padding: 8px 10px;
-        letter-spacing: 2px;
-        font-style: italic;
       }
 
       a:hover{
@@ -60,6 +58,5 @@
   margin-left: -80px;
   z-index: 101;
   text-decoration: none;
-  border-bottom: 2px solid white;
   letter-spacing: 2px;
 }
