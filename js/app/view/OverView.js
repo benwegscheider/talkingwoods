@@ -328,12 +328,12 @@ define([
         onInProjectChange: function() {
 
             if (this.stateModel.get('inproject')) {
-                TweenMax.to(this.$border, 0.7, {autoAlpha: 0, ease: Linear.easeNone});
+                TweenMax.to(this.$border, 0.4, {autoAlpha: 0, ease: Linear.easeNone});
 
             }
 
             else {
-                TweenMax.to(this.$border, 1, {autoAlpha: 1, ease: Linear.easeNone});
+                TweenMax.to(this.$border, 0.7, {autoAlpha: 1, delay: 0.5, ease: Linear.easeNone});
 
             }
         }

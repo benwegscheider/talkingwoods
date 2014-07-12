@@ -65,6 +65,7 @@ define([
             this.gestureManager.on('gesture', this.onGesture);
 
             this.stateModel.on('change:project', this.onProjectChange);
+            this.stateModel.on('change:inproject', this.onInProjectChange);
 
             console.log("projects lenght: "+this.projects.length);
 
@@ -99,7 +100,7 @@ define([
                         // SLIDE ALL OTHER PROJECTS
 
                         if (i != this.stateModel.get('project')) {
-                            this.projects[i].projectModel.set('slide', 0);
+                            this.projects[i].resetSlides();
                     }}
                 }
 
@@ -117,7 +118,7 @@ define([
                         // SLIDE ALL OTHER PROJECTS
 
                         if (i != this.stateModel.get('project')) {
-                            this.projects[i].projectModel.set('slide', 0);
+                            this.projects[i].resetSlides();
                         }}
                 }
 
@@ -132,6 +133,15 @@ define([
                 this.animatingDown = false;
 
             }});
+        },
+
+        onInProjectChange: function() {
+            if (this.stateModel.get('inproject')) {
+                TweenMax.to(this.projectIndication.$el, 0.6, {autoAlpha: 0});
+            }
+            else {
+                TweenMax.to(this.projectIndication.$el, 0.6, {autoAlpha: 1});
+            }
         }
 
 

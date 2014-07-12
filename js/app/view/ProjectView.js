@@ -102,6 +102,8 @@ define([
 
             if (this.projectModel.get('slide') == 0) {
               // start
+                this.stateModel.set('inproject', false);
+
                 $left = this.gallery.items[this.gallery.items.length-1].$element;
                 $lleft =  this.gallery.items[this.gallery.items.length-2].$element;
                 $right = this.gallery.items[this.projectModel.get('slide')+1].$element;
@@ -110,6 +112,8 @@ define([
             }
             else if (this.projectModel.get('slide') == this.gallery.items.length-1 ) {
               // end
+                this.stateModel.set('inproject', true);
+
                 $left = this.gallery.items[this.projectModel.get('slide')-1].$element;
                 $lleft =  this.gallery.items[this.projectModel.get('slide')-2].$element;
                 $right = this.gallery.items[0].$element;
@@ -118,6 +122,8 @@ define([
             }
             else if (this.projectModel.get('slide') == 1 ) {
                 // end
+                this.stateModel.set('inproject', true);
+
                 $left = this.gallery.items[0].$element;
                 $lleft =  this.gallery.items[this.gallery.items.length-1].$element;
                 $right = this.gallery.items[this.projectModel.get('slide')+1].$element;
@@ -126,6 +132,8 @@ define([
             }
             else if (this.projectModel.get('slide') == this.gallery.items.length-2 ) {
                 // end
+                this.stateModel.set('inproject', true);
+
                 $left = this.gallery.items[this.projectModel.get('slide')-1].$element;
                 $lleft =  this.gallery.items[this.projectModel.get('slide')-2].$element;
                 $right = this.gallery.items[this.gallery.items.length-1].$element;
@@ -134,6 +142,9 @@ define([
             }
             else if (this.projectModel.get('slide') > 1 && this.projectModel.get('slide') < this.gallery.items.length-2 ) {
               // inbetween
+                this.stateModel.set('inproject', true);
+
+
                 $left = this.gallery.items[this.projectModel.get('slide')-1].$element;
                 if (this.projectModel.get('slide') == 1) {
                     $lleft =  this.gallery.items[this.gallery.items.length-1].$element;
@@ -151,13 +162,14 @@ define([
                 }
             }
 
-            this.stateModel.set('inproject', true);
-            TweenMax.to($left, 0.9, {x: - this.displayModel.get('width') + (this.displayModel.get('width') - $left.width())/2 + 100, autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true});
+            var that = this;
+
+            TweenMax.to($left, 0.9, {x: - this.displayModel.get('width') + (this.displayModel.get('width') - $left.width())/2 + 150, autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true});
 
             TweenMax.to($mid, 0.9, {x: 0, autoAlpha: 1, ease: Cubic.easeInOut, force3D: true, onCompleteScope: this, onComplete: function() {
-                this.animating = false;
+                that.animating = false;
             }});
-            TweenMax.to($right, 0.9, {x: this.displayModel.get('width') - (this.displayModel.get('width') - $right.width())/2 - 100, autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true});
+            TweenMax.to($right, 0.9, {x: this.displayModel.get('width') - (this.displayModel.get('width') - $right.width())/2 - 150, autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true});
 
 
             TweenMax.to($rright, 0.9, {x: this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
@@ -165,6 +177,43 @@ define([
 
 
 
+        },
+
+        resetSlides: function() {
+
+            var that = this;
+
+            this.stateModel.set('inproject', false);
+
+
+            var $mid = this.gallery.items[0].$element;
+            var $left = this.gallery.items[this.gallery.items.length-1].$element;
+            var $lleft =  this.gallery.items[this.gallery.items.length-2].$element;
+            var $right = this.gallery.items[1].$element;
+            var $rright = this.gallery.items[2].$element;
+
+
+            for (var i = 0; i < this.gallery.items.length; i++) {
+                if (i != this.gallery.items.length-1 && i != this.gallery.items.length-2 && i != 1 && i != 2 && i != 0) {
+                    console.log("I: "+i);
+                    TweenMax.to(this.gallery.items[i].$element, 0.6, {x: this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
+
+                }
+            }
+
+            TweenMax.to($left, 0.9, {x: - this.displayModel.get('width') + (this.displayModel.get('width') - $left.width())/2 + 150, autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true});
+
+            TweenMax.to($mid, 0.9, {x: 0, autoAlpha: 1, ease: Cubic.easeInOut, force3D: true, onCompleteScope: this, onComplete: function() {
+                that.animating = false;
+            }});
+            TweenMax.to($right, 0.9, {x: this.displayModel.get('width') - (this.displayModel.get('width') - $right.width())/2 - 150, autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true});
+
+
+            TweenMax.to($rright, 0.9, {x: this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
+            TweenMax.to($lleft, 0.9, {x: -this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
+
+
+            this.projectModel.set('slide', 0);
         },
 
         onGesture: function(type, direction, $target) {
@@ -206,8 +255,6 @@ define([
 
         nextSlide: function(e) {
 
-            console.log(e);
-
             var oldSlide = this.projectModel.get('slide');
 
             console.log("slide : "+oldSlide);
@@ -219,9 +266,9 @@ define([
                     this.animating = true;
                     this.projectModel.set('slide',oldSlide+1);
                 }
-                else {
+                else if (!this.animating) {
                     this.animating = true;
-                    this.projectModel.set('slide',0);
+                    this.projectModel.set('slide', 0);
                 }
             }
             else {
@@ -233,7 +280,7 @@ define([
 
 
                 }
-                else {
+                else if (!this.animating) {
                     this.animating = true;
                     this.projectModel.set('slide',this.gallery.items.length-1);
                 }
