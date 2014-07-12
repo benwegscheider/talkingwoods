@@ -199,7 +199,7 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 #projects .project .descr h2 { left: 120px; text-transform: uppercase; letter-spacing: 3px; top: 120px; font-style: italic; }
 #projects .project .descr p { left: 60px; bottom: 60px; width: 50%; letter-spacing: 1px; line-height: 26px; text-transform: uppercase; }
 #projects .project .elements { position: absolute; top: 0; left: 0; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
-#projects .project .elements .element { float: left; display: block; position: relative; }
+#projects .project .elements .element { position: absolute; display: block; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 #projects .project .elements .element h3 { color: #fff; display: block; text-align: center; letter-spacing: 2px; }
 #projects .project .elements .element .keyword1, #projects .project .elements .element .keyword2, #projects .project .elements .element .sub { position: absolute; }
 #projects .project .elements .element img { position: relative; margin: 0 auto; display: block; height: auto; }

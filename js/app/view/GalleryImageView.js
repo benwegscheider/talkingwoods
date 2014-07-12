@@ -37,14 +37,15 @@ define([
             }
             else if ( this.type  == 'manifest' || this.type  == 'text' ) {
 
-
                 if (this.type == 'manifest') {
-                    this.$element = this.$el.find('h2');
+                    var $manifest = this.$el.find('h2');
 
                     var structure = '<div class="centerwrap"><div class="center"></div></div>';
                     var $ov = $(structure);
                     var $currentOverlay = this.$el.append($ov);
-                    this.$element.appendTo($ov.find('.center'));
+                    $manifest.appendTo($ov.find('.center'));
+
+                    this.$element = this.$el;
                 }
                 else if (this.type == 'text') {
                     this.$element = this.$el.find('.item');
@@ -59,6 +60,9 @@ define([
                 }
 
             }
+
+            TweenMax.to(this.$element, 0, {x: this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
+
 
             this.adjustImageHeight();
 

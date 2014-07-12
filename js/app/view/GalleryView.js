@@ -33,6 +33,8 @@ define([
                 that.items.push(new GalleryImageView({el: $(this), displayModel: that.displayModel, stateModel: that.stateModel}));
             });
 
+
+
             this.updateWidth();
 
 //            this.gestureManager = new GestureManager({$el: this.$el, autoEnable: true, autoStart: true,  mouseWheelEnabled: true  });

@@ -176,7 +176,7 @@ define([
 
 
                 if (this.landingView.$el.css('display') == 'block') {
-                    this.landingView.$el.fadeOut();
+                    this.landingView.$el.fadeOut(1000);
                     this.landingView.pause();
                 }
                 if (this.infoView.$el.css('display') == 'block') {
@@ -187,7 +187,12 @@ define([
                     this.videoView.pause();
                 }
 
-                this.projectThreadView.$el.fadeIn();
+                this.projectThreadView.$el.css('opacity', 0);
+                this.projectThreadView.$el.css('display', 'block');
+
+                TweenMax.to(this.projectThreadView.$el, 1, {autoAlpha: 1, opacity: 1, ease: Linear.easeNone});
+
+//                this.projectThreadView.$el.fadeIn();
             }
 
             else if (status == 'info') {
