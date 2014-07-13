@@ -1,8 +1,11 @@
 define([
     'view/PageBaseView',
+    'utils/GestureManager',
     'common'
-], function(PageBaseView) {
+], function(PageBaseView, GestureManager) {
     var MenuView = PageBaseView.extend({
+
+        gestureManager: null,
 
         events: {
             'click .menuBtn': 'clickMenu',
@@ -13,6 +16,9 @@ define([
             this._super(options);
 
             console.log('### MenuView.initialize: ', arguments);
+
+            this.gestureManager = new GestureManager({$el: this.$el, autoEnable: true, autoStart: true});
+            this.gestureManager.on('gesture', this.onGesture);
 
             this.stateModel.on('change:menu', this.onChangeMenu);
             this.stateModel.on('change:status', this.onStatusChange);
@@ -25,6 +31,35 @@ define([
 
             return this;
         },
+
+
+        onGesture: function(type, direction, $target) {
+            var that = this;
+
+            if (this.stateModel.get('status') == 'start') {
+                if (type == 'down') {
+                    if (!this.animatingDown) {
+                        this.animatingDown = true;
+
+                        this.stateModel.set('status', 'projekte');
+                        this.stateModel.set('menu', false);
+
+
+                        setTimeout(function() {that.animatingDown = false;}, 1000 );
+                    }
+                }
+                else if (type == 'up') {
+                    if (!this.animatingDown ) {
+                        this.animatingDown = true;
+
+                        setTimeout(function() {that.animatingDown = false;}, 1000 );
+                    }
+                }
+            }
+
+
+        },
+
 
         clickMenu: function(e) {
             console.log("click menu: "+ $(e.target).html());
@@ -61,6 +96,8 @@ define([
         onChangeMenu: function() {
 
             if (this.stateModel.get('menu') == 1) {
+
+                $('body').removeClass('left').removeClass('right');
 
                 console.log("STATUS: "+this.stateModel.get('status'));
                 if (this.stateModel.get('status') != 'start' && this.stateModel.get('status') != 'video') {

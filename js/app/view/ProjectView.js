@@ -56,46 +56,46 @@ define([
 
 
             var $left, $right, $lleft, $rright;
-            var $mid = this.gallery.items[this.projectModel.get('slide')].$element;
+            var $mid = this.gallery.items[this.projectModel.get('slide')];
 
             if (this.projectModel.get('slide') == 0) {
               // start
                 this.stateModel.set('inproject', false);
 
-                $left = this.gallery.items[this.gallery.items.length-1].$element;
-                $lleft =  this.gallery.items[this.gallery.items.length-2].$element;
-                $right = this.gallery.items[this.projectModel.get('slide')+1].$element;
-                $rright = this.gallery.items[this.projectModel.get('slide')+2].$element;
+                $left = this.gallery.items[this.gallery.items.length-1];
+                $lleft =  this.gallery.items[this.gallery.items.length-2];
+                $right = this.gallery.items[this.projectModel.get('slide')+1];
+                $rright = this.gallery.items[this.projectModel.get('slide')+2];
 
             }
             else if (this.projectModel.get('slide') == this.gallery.items.length-1 ) {
               // end
                 this.stateModel.set('inproject', true);
 
-                $left = this.gallery.items[this.projectModel.get('slide')-1].$element;
-                $lleft =  this.gallery.items[this.projectModel.get('slide')-2].$element;
-                $right = this.gallery.items[0].$element;
-                $rright = this.gallery.items[1].$element;
+                $left = this.gallery.items[this.projectModel.get('slide')-1];
+                $lleft =  this.gallery.items[this.projectModel.get('slide')-2];
+                $right = this.gallery.items[0];
+                $rright = this.gallery.items[1];
 
             }
             else if (this.projectModel.get('slide') == 1 ) {
                 // end
                 this.stateModel.set('inproject', true);
 
-                $left = this.gallery.items[0].$element;
-                $lleft =  this.gallery.items[this.gallery.items.length-1].$element;
-                $right = this.gallery.items[this.projectModel.get('slide')+1].$element;
-                $rright = this.gallery.items[this.projectModel.get('slide')+2].$element;
+                $left = this.gallery.items[0];
+                $lleft =  this.gallery.items[this.gallery.items.length-1];
+                $right = this.gallery.items[this.projectModel.get('slide')+1];
+                $rright = this.gallery.items[this.projectModel.get('slide')+2];
 
             }
             else if (this.projectModel.get('slide') == this.gallery.items.length-2 ) {
                 // end
                 this.stateModel.set('inproject', true);
 
-                $left = this.gallery.items[this.projectModel.get('slide')-1].$element;
-                $lleft =  this.gallery.items[this.projectModel.get('slide')-2].$element;
-                $right = this.gallery.items[this.gallery.items.length-1].$element;
-                $rright = this.gallery.items[0].$element;
+                $left = this.gallery.items[this.projectModel.get('slide')-1];
+                $lleft =  this.gallery.items[this.projectModel.get('slide')-2];
+                $right = this.gallery.items[this.gallery.items.length-1];
+                $rright = this.gallery.items[0];
 
             }
             else if (this.projectModel.get('slide') > 1 && this.projectModel.get('slide') < this.gallery.items.length-2 ) {
@@ -103,40 +103,87 @@ define([
                 this.stateModel.set('inproject', true);
 
 
-                $left = this.gallery.items[this.projectModel.get('slide')-1].$element;
+                $left = this.gallery.items[this.projectModel.get('slide')-1];
                 if (this.projectModel.get('slide') == 1) {
-                    $lleft =  this.gallery.items[this.gallery.items.length-1].$element;
+                    $lleft =  this.gallery.items[this.gallery.items.length-1];
                 }
                 else {
-                    $lleft =  this.gallery.items[this.projectModel.get('slide')-2].$element;
+                    $lleft =  this.gallery.items[this.projectModel.get('slide')-2];
                 }
 
-                $right = this.gallery.items[this.projectModel.get('slide')+1].$element;
+                $right = this.gallery.items[this.projectModel.get('slide')+1];
                 if (this.projectModel.get('slide') == this.gallery.items.length-2) {
-                    $rright =  this.gallery.items[this.gallery.items.length-1].$element;
+                    $rright =  this.gallery.items[this.gallery.items.length-1];
                 }
                 else {
-                    $rright =  this.gallery.items[this.projectModel.get('slide')+2].$element;
+                    $rright =  this.gallery.items[this.projectModel.get('slide')+2];
                 }
             }
 
+
+
+            if ($mid.$element.hasClass('main')) {
+                $mid.$el.css('z-index', 101);
+                TweenMax.to($mid.$element, 0.9, {css: {height: '700'}, ease: Cubic.easeInOut});
+            }
+            if ($left.$element.hasClass('main')) {
+                TweenMax.to($left.$element, 0.9, {css: {height: '533'}, ease: Cubic.easeInOut});
+            }
+            if ($right.$element.hasClass('main')) {
+                TweenMax.to($right.$element, 0.9, {css: {height: '533'}, ease: Cubic.easeInOut});
+            }
+
+
+
             var that = this;
 
-            TweenMax.to($left, 0.9, {x: - this.displayModel.get('width') + (this.displayModel.get('width') - $left.width())/2 + 150, autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true});
 
-            TweenMax.to($mid, 0.9, {x: 0, autoAlpha: 1, ease: Cubic.easeInOut, force3D: true, onCompleteScope: this, onComplete: function() {
-                that.animating = false;
+            TweenMax.to($left.$el, 0.9, {x: -this.displayModel.get('width'), autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true, onCompleteScope: this, onComplete: function() {
+                $left.$el.css('z-index', 99);
             }});
+//            TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - $left.$element.width())/2 + 150, ease: Cubic.easeInOut, force3D: true});
+
+            if ($left.type == 'image') {
+                TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - 800)/2 + 150, ease: Cubic.easeInOut, force3D: true});
+
+            }
+            else {
+                TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - $left.$element.width())/2 + 150, ease: Cubic.easeInOut, force3D: true});
+
+            }
+
+
+
+            TweenMax.to($mid.$el, 0.9, {x: 0, autoAlpha: 1, ease: Cubic.easeInOut, force3D: true, onCompleteScope: this, onComplete: function() {
+                that.animating = false;
+                $mid.$el.css('z-index', 100);
+            }});
+            TweenMax.to($mid.$element, 0.9, {x: 0, ease: Cubic.easeInOut, force3D: true});
 
 //            if ($img.hasClass('main')) {
 //                TweenMax.to($img, 0.9, {css: {width: '80%'}, ease: Cubic.easeInOut});
 //            }
 
-            TweenMax.to($right, 0.9, {x: this.displayModel.get('width') - (this.displayModel.get('width') - $right.width())/2 - 150, autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true});
+
+            TweenMax.to($right.$el, 0.9, {x: this.displayModel.get('width'), autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true, onCompleteScope:this, onComplete: function() {
+                $right.$el.css('z-index', 99);
+            }});
+//            TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - $right.$element.width())/2 - 150, ease: Cubic.easeInOut, force3D: true});
+            if ($right.type == 'image') {
+                TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - 800)/2 - 150, ease: Cubic.easeInOut, force3D: true});
+
+            }
+            else {
+                TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - $right.$element.width())/2 - 150, ease: Cubic.easeInOut, force3D: true});
+
+            }
 
 
-            TweenMax.to($rright, 0.9, {x: this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
-            TweenMax.to($lleft, 0.9, {x: -this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
+            TweenMax.to($rright.$el, 0.9, {x: this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
+            TweenMax.to($rright.$element, 0.9, {x: 0, ease: Cubic.easeInOut, force3D: true});
+
+            TweenMax.to($lleft.$el, 0.9, {x: -this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
+            TweenMax.to($lleft.$element, 0.9, {x: 0, ease: Cubic.easeInOut, force3D: true});
 
 
 
@@ -148,31 +195,13 @@ define([
 
             this.stateModel.set('inproject', false);
 
-//
-//            var $mid = this.gallery.items[0].$element;
-//            var $left = this.gallery.items[this.gallery.items.length-1].$element;
-//            var $lleft =  this.gallery.items[this.gallery.items.length-2].$element;
-//            var $right = this.gallery.items[1].$element;
-//            var $rright = this.gallery.items[2].$element;
-
 
             for (var i = 0; i < this.gallery.items.length; i++) {
                 if (i != this.gallery.items.length-1 && i != this.gallery.items.length-2 && i != 1 && i != 2 && i != 0) {
-                    TweenMax.to(this.gallery.items[i].$element, 0.6, {x: this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
+                    TweenMax.to(this.gallery.items[i].$el, 0.6, {x: this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
 
                 }
             }
-
-//            TweenMax.to($left, 0.9, {x: - this.displayModel.get('width') + (this.displayModel.get('width') - $left.width())/2 + 150, autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true});
-//
-//            TweenMax.to($mid, 0.9, {x: 0, autoAlpha: 1, ease: Cubic.easeInOut, force3D: true, onCompleteScope: this, onComplete: function() {
-//                that.animating = false;
-//            }});
-//            TweenMax.to($right, 0.9, {x: this.displayModel.get('width') - (this.displayModel.get('width') - $right.width())/2 - 150, autoAlpha: 0.5, ease: Cubic.easeInOut, force3D: true});
-//
-//
-//            TweenMax.to($rright, 0.9, {x: this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
-//            TweenMax.to($lleft, 0.9, {x: -this.displayModel.get('width'), autoAlpha: 0, ease: Cubic.easeInOut, force3D: true});
 
 
             this.projectModel.set('slide', 0);
@@ -212,7 +241,7 @@ define([
         },
 
         colorText: function() {
-            this.$el.find('h2, h3, p, span').css('color', this.$el.attr('data-color'));
+            this.$el.find('h1, h2, h3, p, span').css('color', this.$el.attr('data-color'));
         },
 
         nextSlide: function(e) {
@@ -221,7 +250,9 @@ define([
 
             console.log("slide : "+oldSlide);
 
-            if (e.pageX > this.displayModel.get('width')/2) {
+            var that = this;
+            if (e.pageX > (that.displayModel.get('width')/4)*3 && e.pageY > that.displayModel.get('height')/4 && e.pageY < (that.displayModel.get('height')/4)*3
+                ) {
                 if (!this.animating && oldSlide+1 <= this.gallery.items.length-1) {
 
                     console.log("LENGTH: "+this.gallery.items.length);
@@ -233,7 +264,7 @@ define([
                     this.projectModel.set('slide', 0);
                 }
             }
-            else {
+            else if (e.pageX < that.displayModel.get('width')/4 && e.pageY > that.displayModel.get('height')/4 && e.pageY < (that.displayModel.get('height')/4)*3){
                 if (!this.animating && oldSlide-1 >=0) {
 
                     console.log("LENGTH: "+this.gallery.items.length);
@@ -247,6 +278,8 @@ define([
                     this.projectModel.set('slide',this.gallery.items.length-1);
                 }
             }
+
+
 
         }
 

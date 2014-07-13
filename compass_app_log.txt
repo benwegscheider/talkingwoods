@@ -1645,3 +1645,99 @@ Load paths:
 2014-07-13 01:00:44 overwrite ./css/style.css 
 2014-07-13 01:00:59 overwrite ./css/style.css 
 2014-07-13 01:01:09 overwrite ./css/style.css 
+2014-07-13 16:53:01 overwrite ./css/style.css 
+2014-07-13 16:53:35 overwrite ./css/style.css 
+2014-07-13 17:23:49 overwrite ./css/style.css 
+2014-07-13 17:24:12 overwrite ./css/style.css 
+2014-07-13 17:24:20 overwrite ./css/style.css 
+2014-07-13 17:24:22 identical ./css/style.css 
+2014-07-13 17:24:33 overwrite ./css/style.css 
+2014-07-13 17:24:52 overwrite ./css/style.css 
+2014-07-13 17:26:05 overwrite ./css/style.css 
+2014-07-13 17:26:14 overwrite ./css/style.css 
+2014-07-13 17:26:35 identical ./css/style.css 
+2014-07-13 17:55:29 overwrite ./css/style.css 
+2014-07-13 17:56:43     error sass/style.scss (Line 120 of sass/part/page/_projects.scss: Invalid CSS after "...    width: 100%": expected ";", was ":")
+2014-07-13 17:56:43 overwrite ./css/style.css 
+2014-07-13 17:56:43     error sass/style.scss (Line 120 of sass/part/page/_projects.scss: Invalid CSS after "...    width: 100%": expected ";", was ":")
+2014-07-13 17:56:43 identical ./css/style.css 
+2014-07-13 17:56:46 overwrite ./css/style.css 
+2014-07-13 18:03:34 overwrite ./css/style.css 
+2014-07-13 18:37:14 identical ./css/style.css 
+2014-07-13 18:37:40 overwrite ./css/style.css 
+2014-07-13 18:38:20 overwrite ./css/style.css 
+2014-07-13 18:38:39 overwrite ./css/style.css 
+2014-07-13 18:42:21     error sass/style.scss (Line 67 of sass/part/page/_projects.scss: Invalid CSS after "...    width: 100%": expected ";", was ":")
+2014-07-13 18:42:21 overwrite ./css/style.css 
+2014-07-13 18:42:21     error sass/style.scss (Line 67 of sass/part/page/_projects.scss: Invalid CSS after "...    width: 100%": expected ";", was ":")
+2014-07-13 18:42:21 identical ./css/style.css 
+2014-07-13 18:42:29     error sass/style.scss (Line 67 of sass/part/page/_projects.scss: Invalid CSS after "...    width: 100%": expected ";", was ":")
+2014-07-13 18:42:29 identical ./css/style.css 
+2014-07-13 18:42:30     error sass/style.scss (Line 67 of sass/part/page/_projects.scss: Invalid CSS after "...    width: 100%": expected ";", was ":")
+2014-07-13 18:42:30 identical ./css/style.css 
+2014-07-13 18:42:30     error sass/style.scss (Line 67 of sass/part/page/_projects.scss: Invalid CSS after "...    width: 100%": expected ";", was ":")
+2014-07-13 18:42:30 identical ./css/style.css 
+2014-07-13 18:42:30     error sass/style.scss (Line 67 of sass/part/page/_projects.scss: Invalid CSS after "...    width: 100%": expected ";", was ":")
+2014-07-13 18:42:30 identical ./css/style.css 
+2014-07-13 18:43:36     error sass/style.scss (Line 67 of sass/part/page/_projects.scss: Invalid CSS after "...    width: 100%": expected ";", was ":")
+2014-07-13 18:43:36 overwrite ./css/style.css 
+2014-07-13 18:43:36     error sass/style.scss (Line 67 of sass/part/page/_projects.scss: Invalid CSS after "...    width: 100%": expected ";", was ":")
+2014-07-13 18:43:36 identical ./css/style.css 
+2014-07-13 18:43:46 overwrite ./css/style.css 
+2014-07-13 18:44:03 overwrite ./css/style.css 
+2014-07-13 18:45:49 overwrite ./css/style.css 
+2014-07-13 18:53:14 overwrite ./css/style.css 
+2014-07-13 19:10:27 overwrite ./css/style.css 
+2014-07-13 19:11:49 overwrite ./css/style.css 
+2014-07-13 19:12:08 overwrite ./css/style.css 
+2014-07-13 19:12:13 overwrite ./css/style.css 
+2014-07-13 19:12:20 overwrite ./css/style.css 
+2014-07-13 19:12:21 overwrite ./css/style.css 
+2014-07-13 19:12:51 overwrite ./css/style.css 
+2014-07-13 19:13:27 overwrite ./css/style.css 
+2014-07-13 19:14:12 overwrite ./css/style.css 
+2014-07-13 19:14:59 overwrite ./css/style.css 
+2014-07-13 19:15:51 overwrite ./css/style.css 
+2014-07-13 19:16:28     error sass/style.scss (Line 22 of sass/part/projects/_project-5.scss: Invalid CSS after "  }": expected selector or at-rule, was "}")
+2014-07-13 19:16:28 overwrite ./css/style.css 
+2014-07-13 19:16:28     error sass/style.scss (Line 22 of sass/part/projects/_project-5.scss: Invalid CSS after "  }": expected selector or at-rule, was "}")
+2014-07-13 19:16:28 identical ./css/style.css 
+2014-07-13 19:16:30 overwrite ./css/style.css 
+2014-07-13 19:16:39 overwrite ./css/style.css 
+2014-07-13 19:16:47 overwrite ./css/style.css 
+2014-07-13 19:17:03 overwrite ./css/style.css 
+2014-07-13 19:17:11 overwrite ./css/style.css 
+2014-07-13 19:17:15 overwrite ./css/style.css 
+2014-07-13 19:17:20 overwrite ./css/style.css 
+2014-07-13 19:17:56 overwrite ./css/style.css 
+2014-07-13 19:18:22 overwrite ./css/style.css 
+2014-07-13 20:21:03     error sass/style.scss (Line 44 of sass/part/page/_info.scss: Invalid CSS after "      position:": expected pseudoclass or pseudoelement, was " absolute;")
+2014-07-13 20:21:03 overwrite ./css/style.css 
+2014-07-13 20:21:04     error sass/style.scss (Line 44 of sass/part/page/_info.scss: Invalid CSS after "      position:": expected pseudoclass or pseudoelement, was " absolute;")
+2014-07-13 20:21:04 identical ./css/style.css 
+2014-07-13 20:21:09     error sass/style.scss (Line 44 of sass/part/page/_info.scss: Invalid CSS after "  position:": expected pseudoclass or pseudoelement, was " absolute;")
+2014-07-13 20:21:09 overwrite ./css/style.css 
+2014-07-13 20:21:09     error sass/style.scss (Line 44 of sass/part/page/_info.scss: Invalid CSS after "  position:": expected pseudoclass or pseudoelement, was " absolute;")
+2014-07-13 20:21:09 identical ./css/style.css 
+2014-07-13 20:21:13     error sass/style.scss (Line 45 of sass/part/page/_info.scss: Invalid CSS after "  position:": expected pseudoclass or pseudoelement, was " absolute;")
+2014-07-13 20:21:13 overwrite ./css/style.css 
+2014-07-13 20:21:13     error sass/style.scss (Line 45 of sass/part/page/_info.scss: Invalid CSS after "  position:": expected pseudoclass or pseudoelement, was " absolute;")
+2014-07-13 20:21:13 identical ./css/style.css 
+2014-07-13 20:21:19     error sass/style.scss (Line 45 of sass/part/page/_info.scss: Invalid CSS after "  position:": expected pseudoclass or pseudoelement, was " absolute;")
+2014-07-13 20:21:19 identical ./css/style.css 
+2014-07-13 20:21:19     error sass/style.scss (Line 45 of sass/part/page/_info.scss: Invalid CSS after "  position:": expected pseudoclass or pseudoelement, was " absolute;")
+2014-07-13 20:21:19 identical ./css/style.css 
+2014-07-13 20:21:28     error sass/style.scss (Line 45 of sass/part/page/_info.scss: Invalid CSS after "    position:": expected pseudoclass or pseudoelement, was " absolute;")
+2014-07-13 20:21:28 overwrite ./css/style.css 
+2014-07-13 20:21:28     error sass/style.scss (Line 45 of sass/part/page/_info.scss: Invalid CSS after "    position:": expected pseudoclass or pseudoelement, was " absolute;")
+2014-07-13 20:21:28 identical ./css/style.css 
+2014-07-13 20:21:30 overwrite ./css/style.css 
+2014-07-13 20:21:34 overwrite ./css/style.css 
+2014-07-13 20:21:49 overwrite ./css/style.css 
+2014-07-13 20:21:59 overwrite ./css/style.css 
+2014-07-13 20:22:25 overwrite ./css/style.css 
+2014-07-13 20:22:51 overwrite ./css/style.css 
+2014-07-13 20:22:56 overwrite ./css/style.css 
+2014-07-13 20:24:17 overwrite ./css/style.css 
+2014-07-13 22:06:23 overwrite ./css/style.css 
+2014-07-13 22:10:09 overwrite ./css/style.css 

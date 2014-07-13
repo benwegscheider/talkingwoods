@@ -22,6 +22,14 @@ body.right {
   cursor: url("../img/arrow-right.png"), auto;
 }
 
+body.top {
+  cursor: url("../img/arrow-up.png"), auto;
+}
+
+body.bottom {
+  cursor: url("../img/arrow-down.png"), auto;
+}
+
 h1, h2, h3, p, a {
   color: #000;
   text-transform: uppercase;

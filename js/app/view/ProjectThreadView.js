@@ -22,7 +22,7 @@ define([
         projectIndication: null,
 
         events: {
-
+            'click': 'nextProject'
         },
 
         initialize: function(options) {
@@ -48,24 +48,43 @@ define([
             this.projectIndication = new ProjectIndicationView({el: $('#project-indicator'), displayModel:that.displayModel, stateModel:that.stateModel, projects: that.projects.length});
 
             this.$el.mousemove(function(e) {
+//                if (e.pageX > that.displayModel.get('width')) {
+//                    that.$body.removeClass('left').addClass('right');
+////                    that.$body.css('cursor', 'url("./img/arrow-right.png"), auto');
+//                }
+//                else {
+////                    that.$body.css('cursor', 'url("./img/arrow-left.png"), auto');
+//                    that.$body.removeClass('right bottom top').addClass('left');
+//                }
 
-
-
-                if (e.pageX > that.displayModel.get('width')/2) {
-                    that.$body.removeClass('left').addClass('right');
-//                    that.$body.css('cursor', 'url("./img/arrow-right.png"), auto');
+                if (e.pageX < that.displayModel.get('width')/4 && e.pageY > that.displayModel.get('height')/4 && e.pageY < (that.displayModel.get('height')/4)*3) {
+                    // links
+                    that.$body.removeClass('right').removeClass('top').removeClass('bottom').addClass('left');
+                }
+                else if (e.pageX > (that.displayModel.get('width')/4)*3 && e.pageY > that.displayModel.get('height')/4 && e.pageY < (that.displayModel.get('height')/4)*3) {
+                    // rechts
+                    that.$body.removeClass('left').removeClass('bottom').removeClass('top').addClass('right');
+                }
+                else if (e.pageY < that.displayModel.get('height')/4 && e.pageX > that.displayModel.get('width')/4 && e.pageX < (that.displayModel.get('width')/4)*3) {
+                    // oben
+                    that.$body.removeClass('left').removeClass('right').removeClass('bottom').addClass('top');
+                }
+                else if (e.pageY > (that.displayModel.get('height')/4)*3 && e.pageX > that.displayModel.get('width')/4 && e.pageX < (that.displayModel.get('width')/4)*3) {
+                    // unten
+                    that.$body.removeClass('left').removeClass('right').removeClass('top').addClass('bottom');
                 }
                 else {
-//                    that.$body.css('cursor', 'url("./img/arrow-left.png"), auto');
-                    that.$body.removeClass('right').addClass('left');
+                    that.$body.removeClass('left').removeClass('right').removeClass('top').removeClass('bottom');
                 }
+
+
             });
 
             this.gestureManager = new GestureManager({$el: this.$el, autoEnable: true, autoStart: true});
             this.gestureManager.on('gesture', this.onGesture);
 
             this.stateModel.on('change:project', this.onProjectChange);
-            this.stateModel.on('change:inproject', this.onInProjectChange);
+//            this.stateModel.on('change:inproject', this.onInProjectChange);
 
             console.log("projects lenght: "+this.projects.length);
 
@@ -146,6 +165,19 @@ define([
             }
             else {
                 TweenMax.to(this.projectIndication.$el, 0.6, {autoAlpha: 1});
+            }
+        },
+
+        nextProject: function(e) {
+            var that = this;
+            console.log("CLICK");
+            if (e.pageY < that.displayModel.get('height')/4 && e.pageX > that.displayModel.get('width')/4 && e.pageX < (that.displayModel.get('width')/4)*3) {
+                // oben
+                this.onGesture('up');
+            }
+            else if (e.pageY > (that.displayModel.get('height')/4)*3 && e.pageX > that.displayModel.get('width')/4 && e.pageX < (that.displayModel.get('width')/4)*3) {
+                // unten
+                this.onGesture('down');
             }
         }
 

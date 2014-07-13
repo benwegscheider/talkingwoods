@@ -21,14 +21,6 @@ define([
             this.BV.init();
             this.BV.show('video/MVI_0594.mp4',{ambient:true});
 
-//            $("#big-video-wrap").animate({
-//                opacity: 1
-//            }, 1000, "linear", function() {
-//            });
-
-//            this.$el.append($("#big-video-wrap"));
-
-
 
             this.render();
         },

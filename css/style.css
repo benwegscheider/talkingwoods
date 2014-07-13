@@ -176,7 +176,7 @@ p { font-size: 15px; letter-spacing: 2px; line-height: 22px; }
 #info p { font-size: 15px; text-transform: none; line-height: 24px; text-align: center; }
 #info .dick { font-size: 18px; font-weight: bold; }
 #info .keyword1 { font-family: Times; font-size: 28px; line-height: 34px; text-align: left; font-weight: bold; }
-#info .contact { font-size: 12px; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
+#info .contact, #info .danke { font-size: 12px; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
 
 html, body { font-family: Helvetica; width: 100%; height: 100%; }
 
@@ -185,6 +185,10 @@ body { background-color: #fff; position: relative; overflow: hidden; cursor: def
 body.left { cursor: url("../img/arrow-left.png"), auto; }
 
 body.right { cursor: url("../img/arrow-right.png"), auto; }
+
+body.top { cursor: url("../img/arrow-up.png"), auto; }
+
+body.bottom { cursor: url("../img/arrow-down.png"), auto; }
 
 h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 
@@ -201,7 +205,7 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 #user-form { padding: 50px; }
 
 #projects { position: absolute; top: 0; left: 0; display: none; z-index: 5; }
-#projects #project-indicator { position: absolute; top: 30px; left: 30px; }
+#projects #project-indicator { position: absolute; top: 30px; left: 30px; display: none; }
 #projects #projectWrap { -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 #projects .project { overflow: hidden; position: relative; }
 #projects .project .descr { position: relative; z-index: 100; width: 100%; height: 100%; }
@@ -210,6 +214,7 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 #projects .project .descr p { left: 60px; bottom: 60px; width: 50%; letter-spacing: 1px; line-height: 26px; text-transform: uppercase; }
 #projects .project .elements { position: absolute; top: 0; left: 0; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 #projects .project .elements .element { position: absolute; display: block; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+#projects .project .elements .element .manifest-wrap { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
 #projects .project .elements .element h3 { color: #fff; display: block; text-align: center; }
 #projects .project .elements .element .keyword1, #projects .project .elements .element .keyword2, #projects .project .elements .element .sub { position: absolute; }
 #projects .project .elements .element img { position: relative; margin: 0 auto; display: block; height: auto; }
@@ -217,13 +222,17 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 #projects .project .elements .element h2 { max-width: 600px; margin: 0 auto; }
 #projects .project .elements .element .item h2 { margin-bottom: 80px; }
 #projects .project .elements .element .item p { clear: both; position: relative; margin: 0 auto; display: block; height: auto; text-align: center; text-transform: none; }
+#projects .project .elements .element.manifest h1 { position: absolute; text-align: center; top: 10%; width: 100%; }
 
-#info { display: none; position: absolute; top: 0; left: 0; width: 100%; min-height: 100%; }
+#info { display: none; position: absolute; top: 0; left: 0; width: 100%; }
 #info h1 { position: absolute; }
 #info h1 { font-size: 39px; letter-spacing: 2px; top: 150px; left: 150px; }
-#info .content { position: relative; left: 50%; width: 500px; margin-left: -250px; padding-bottom: 200px; padding-top: 100px; }
+#info .content { padding: 150px 0; }
+#info .content .dick { padding-bottom: 50px; }
 #info .keyword1 { position: absolute; left: 13%; top: 8%; }
-#info .contact { position: absolute; right: 6%; top: 70%; }
+#info .impressum { padding-top: 200px; text-align: left; max-width: 600px; margin: 0 auto; }
+#info .contact { position: absolute; left: 6%; top: 400px; text-align: center; }
+#info .danke { position: absolute; right: 6%; top: 800px; text-align: center; }
 
 #start { position: absolute; top: 0; left: 0; display: none; }
 #start .border { position: absolute; top: 30px; right: 30px; bottom: 30px; left: 30px; border: 4px solid white; z-index: 0; }
@@ -238,7 +247,7 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 #menuWrap #menu li a { text-transform: uppercase; padding: 8px 10px; }
 #menuWrap #menu li a:hover { border-bottom: 2px solid white; }
 
-#menuLink { position: fixed; top: 30px; text-align: center; display: none; left: 50%; margin-left: -80px; z-index: 101; text-decoration: none; letter-spacing: 2px; }
+#menuLink { position: fixed; top: 30px; text-align: center; display: none; left: 50%; margin-left: -80px; z-index: 1001; text-decoration: none; letter-spacing: 2px; }
 
 #video { display: none; position: absolute; top: 0; left: 0; }
 
@@ -526,34 +535,34 @@ body.vjs-full-window { padding: 0; margin: 0; height: 100%; /* Fix for IE6 full-
 .project-1 .keyword1 { top: 15%; left: 15%; }
 .project-1 .keyword2 { bottom: 10%; right: 19%; }
 .project-1 .sub { bottom: 5%; left: 5%; }
-.project-1 .format { right: 15%; top: 12%; }
+.project-1 .format { right: 3%; top: 5%; }
 
 .project-2 .keyword1 { bottom: 10%; left: 19%; }
 .project-2 .keyword2 { top: 40%; right: 14%; }
-.project-2 .sub { top: 8%; left: 8%; }
-.project-2 .format { right: 12%; bottom: 5%; }
+.project-2 .sub { bottom: 7%; right: 3%; }
+.project-2 .format { bottom: 4%; left: 10%; }
 
 .project-3 .keyword1 { top: 8%; right: 19%; }
 .project-3 .keyword2 { bottom: 15%; right: 12%; }
-.project-3 .sub { bottom: 4%; left: 55%; }
-.project-3 .format { left: 12%; top: 12%; }
+.project-3 .sub { bottom: 7%; left: 50%; }
+.project-3 .format { left: 11%; top: 19%; }
 
 .project-4 .keyword1 { top: 4%; left: 15%; }
 .project-4 .keyword2 { top: 10%; right: 15%; }
-.project-4 .sub { bottom: 6%; left: 35%; }
-.project-4 .format { right: 10%; top: 40%; }
+.project-4 .sub { top: 8%; right: 3%; }
+.project-4 .format { right: 5%; bottom: 5%; }
 
 .project-5 .keyword1 { top: 7%; left: 15%; }
 .project-5 .keyword2 { top: 30%; left: 5%; }
-.project-5 .sub { top: 8%; left: 60%; }
-.project-5 .format { left: 25%; bottom: 4%; }
+.project-5 .sub { bottom: 8%; left: 55%; }
+.project-5 .format { left: 10%; top: 4%; }
 
 .project-6 .keyword1 { bottom: 8%; left: 37%; }
 .project-6 .keyword2 { top: 7%; right: 7%; }
-.project-6 .sub { top: 30%; left: 6%; }
-.project-6 .format { right: 9%; bottom: 30%; }
+.project-6 .sub { bottom: 6%; left: 5%; }
+.project-6 .format { right: 9%; bottom: 4%; }
 
 .project-7 .keyword1 { right: 6%; top: 37%; }
 .project-7 .keyword2 { bottom: 4%; right: 30%; }
-.project-7 .sub { top: 10%; left: 14%; }
-.project-7 .format { left: 10%; bottom: 10%; }
+.project-7 .sub { bottom: 6%; left: 14%; }
+.project-7 .format { right: 8%; top: 13%; }

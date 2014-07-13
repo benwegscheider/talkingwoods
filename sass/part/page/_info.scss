@@ -1,12 +1,10 @@
 
-
 #info {
   display: none;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 100%;
 
   h1 {
     position: absolute;
@@ -19,14 +17,13 @@
     left: 150px;
   }
   .content {
-    position: relative;
-    left: 50%;
-    width: 500px;
-    margin-left: -250px;
-    padding-bottom: 200px;
-    padding-top: 100px;
-    p {
+    padding: 150px 0;
 
+    .dick {
+      padding-bottom: 50px;
+    }
+
+    p {
 
     }
   }
@@ -37,9 +34,24 @@
     top: 8%;
   }
 
+  .impressum {
+    padding-top: 200px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
   .contact {
     position: absolute;
+    left: 6%;
+    top: 400px;
+    text-align: center;
+  }
+
+  .danke {
+    position: absolute;
     right: 6%;
-    top: 70%;
+    top: 800px;
+    text-align: center;
   }
 }
