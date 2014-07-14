@@ -19,7 +19,22 @@ define([
 
             this.BV = new $.BigVideo({useFlashForFirefox:false, container: this.$el.find('.video'), controls: true});
             this.BV.init();
-            this.BV.show('video/MVI_0594.mp4',{ambient:true});
+
+            this.BV.getPlayer().on("loadedalldata", function(){
+                console.log('LOADED VIDEO');
+                //app.player.play();
+            });
+
+
+            this.BV.show('video/still.mp4',{ambient:true});
+
+//            videojs("example_video_1").ready(function(){
+//                var myPlayer = this;
+//
+//                // EXAMPLE: Start playing the video.
+//                myPlayer.play();
+//
+//            });
 
 
             this.render();

@@ -136,7 +136,7 @@ define([
 //            }
 
             if (status == 'start') {
-                this.$el.removeClass('right left');
+                this.$el.removeClass('right left top bottom');
 
                 this.$el.css('overflow', 'none').css('height', '100%');
 
@@ -148,7 +148,11 @@ define([
                 TweenMax.to(this.landingView.$el, 1.3, {autoAlpha: 1, force3D: true, onCompleteScope: this, onComplete: function() {
                     this.landingView.play();
                 }});
+//                    TweenMax.to(this.$menuLink, 0.3, {autoAlpha:0});
 
+                TweenMax.to(this.$menuLink, 1, { css: {color: '#fff', borderColor: '#fff'}, ease: Linear.easeNone, onCompleteScope: this, onComplete: function() {
+                    console.log("JO");
+                }});
 
                 TweenMax.to(this.$border, 1, {borderColor: '#fff', opacity: 1, ease: Linear.easeNone});
                 TweenMax.to(this.$border, 1, {autoAlpha: 1, opacity: 1, ease: Linear.easeNone});
@@ -157,21 +161,21 @@ define([
 
 
                 if (this.infoView.$el.css('display') == 'block') {
-                    TweenMax.to(this.infoView.$el, 0.3, {autoALpha: 0, onCompleteScope: this, onComplete: function() {
+                    TweenMax.to(this.infoView.$el, 0.3, {autoAlpha: 0, onCompleteScope: this, onComplete: function() {
                         this.infoView.$el.css('display', 'none');
                     }});
                 }
 
 
                 if (this.projectThreadView.$el.css('display') == 'block') {
-                    TweenMax.to(this.projectThreadView.$el, 0.3, {autoALpha: 0, onCompleteScope: this, onComplete: function() {
+                    TweenMax.to(this.projectThreadView.$el, 0.3, {autoAlpha: 0, onCompleteScope: this, onComplete: function() {
                         this.projectThreadView.$el.css('display', 'none');
                     }});
                     this.$el.removeClass('left').removeClass('right');
                 }
 
                 if (this.videoView.$el.css('display') == 'block') {
-                    TweenMax.to(this.videoView.$el, 0.3, {autoALpha: 0, onCompleteScope: this, onComplete: function() {
+                    TweenMax.to(this.videoView.$el, 0.3, {autoAlpha: 0, onCompleteScope: this, onComplete: function() {
                         this.videoView.$el.css('display', 'none');
                     }});
                     this.videoView.pause();
@@ -188,7 +192,7 @@ define([
                 }
 
                 TweenMax.to(this.projectThreadView.projectIndication.$text, 1, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
-                TweenMax.to(this.$menuLink, 1, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color'), borderColor: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
+                TweenMax.to(this.$menuLink, 1, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color'), borderColor: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, ease: Linear.easeNone});
                 TweenMax.to(this.$border, 1, {borderColor: this.projectThreadView.projects[0].$el.attr('data-color'), opacity: 1, ease: Linear.easeNone});
                 TweenMax.to(this.$border, 1, {autoAlpha: 1, opacity: 1, ease: Linear.easeNone});
 
@@ -211,6 +215,7 @@ define([
                     this.videoView.pause();
                     TweenMax.to( this.videoView.$el, 1.3,{y: -this.displayModel.get('height'), ease: Cubic.easeInOut, force3D: true, onCompleteScope:this, onComplete: function() {
 //                        TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
+                        this.videoView.$el.css('display', 'none');
                         TweenMax.to( this.videoView.$el, 0,{y: 0});
                     }});
                 }
@@ -229,6 +234,9 @@ define([
             }
 
             else if (status == 'info') {
+                this.$el.removeClass('right left top bottom');
+
+
 
                 this.infoView.$el.css('opacity', 0).css('display', 'block');
                 TweenMax.to( this.infoView.$el, 0,{y: this.displayModel.get('height')*0.5, ease: Cubic.easeInOut, force3D: true, onCompleteScope:this, onComplete: function() {}});
@@ -237,7 +245,7 @@ define([
                     this.$el.scrollTop(0);
                 }});
 
-                TweenMax.to(this.$menuLink, 1, {css: {color: this.infoView.$el.attr('data-color'), borderColor: this.infoView.$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
+                TweenMax.to(this.$menuLink, 1, {css: {color: this.infoView.$el.attr('data-color'), borderColor: this.infoView.$el.attr('data-color')}, autoAlpha: 1, ease: Linear.easeNone});
                 TweenMax.to(this.$border, 1, {autoAlpha: 0, opacity: 1, ease: Linear.easeNone});
 
                 TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: this.infoView.$el.attr('data-color')}, ease: Linear.easeNone});
@@ -273,7 +281,7 @@ define([
             }
 
             else if (status == 'video') {
-                this.$el.removeClass('right left');
+                this.$el.removeClass('right left top bottom');
 
                 this.$el.css('overflow', 'none').css('height', '100%');
 
@@ -306,7 +314,10 @@ define([
 
                 TweenMax.to(this.$border, 1, {borderColor: '#fff', opacity: 1, ease: Linear.easeNone});
                 TweenMax.to(this.$border, 0.6, {autoAlpha: 0, ease: Linear.easeNone});
-                TweenMax.to(this.$menuLink, 1, {css: {color: '#fff', borderColor: '#fff'}, opacity: 1, ease: Linear.easeNone});
+                TweenMax.to(this.$menuLink, 1, {css: {color: '#fff', borderColor: '#fff'}, autoAlpha: 1, ease: Linear.easeNone});
+
+
+//                TweenMax.to(this.$menuLink, 1, { autoAlpha: 1, ease: Linear.easeNone});
 
                 TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: '#fff'}, opacity: 1, ease: Linear.easeNone});
 
@@ -320,6 +331,16 @@ define([
                 if (this.stateModel.get('status') == 'info') {
                     TweenMax.to(this.$border, 0.3, {autoAlpha: 0, ease: Linear.easeNone});
                 }
+                else if (this.stateModel.get('status') == 'video') {
+                    TweenMax.to(this.$border, 0.3, {autoAlpha: 0, ease: Linear.easeNone});
+                }
+                else if (this.stateModel.get('status') == 'projekte' && this.projectThreadView.projects[this.stateModel.get('project')].projectModel.get('slide') != 0) {
+                    TweenMax.to(this.$border, 0.6, {autoAlpha: 0, ease: Linear.easeNone});
+                    console.log('menuCHange');
+                }
+
+
+
 
                 TweenMax.to(this.menuView.$el, 0.3, { autoAlpha: 0, onCompleteScope: this.menuView.$el, onCompleteScope: this, onComplete: function() {
                     this.menuView.$el.css('display', 'none');
@@ -330,14 +351,15 @@ define([
                     }
                 }});
 
-
-
-                this.$menuLink.css('opacity', 0);
+                console.log('jo');
+//                this.$menuLink.show();
+//                this.$menuLink.css('opacity', 1);
                 this.$menuLink.css('display', 'block');
                 TweenMax.to(this.$menuLink, 0.6, {autoAlpha:1});
 
             }
             else if (this.stateModel.get('menu') == true) {
+                this.$el.removeClass('right left top bottom');
 
                 this.menuView.$el.css('display', 'block');
 
@@ -358,6 +380,7 @@ define([
                     this.$menuLink.css('display', 'block');
                 }});
             }
+
         },
 
         menuLinkClick: function() {
@@ -390,7 +413,7 @@ define([
         onProjectChange: function() {
             if (this.stateModel.get('status') == 'projekte') {
                 TweenMax.to(this.$border, 1, {borderColor: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color'), opacity: 1, ease: Linear.easeNone});
-                TweenMax.to(this.$menuLink, 1, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color'), borderColor: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
+                TweenMax.to(this.$menuLink, 1, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color'), borderColor: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, autoAlpha: 1, ease: Linear.easeNone});
                 TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
                 TweenMax.to(this.projectThreadView.projectIndication.$text, 1, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
 

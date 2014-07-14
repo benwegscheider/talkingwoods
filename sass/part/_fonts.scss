@@ -16,7 +16,7 @@ p {
   font-size: 18px;
   font-style: italic;
   line-height: 27px;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   font-weight: bold;
 }
 
@@ -31,6 +31,7 @@ p {
   font-size: 13px;
   letter-spacing: 3.5px;
   border: none;
+  font-weight: bold;
 
   &:hover {
     border-bottom: 2px solid;
@@ -42,16 +43,17 @@ p {
   h1 {
     font-family: Helvetica;
     font-style: normal;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing: 17px;
   }
 
   a {
     font-family: "Times New Roman";
-    letter-spacing: 5px;
+    letter-spacing: 6px;
     font-style: italic;
     font-size: 13px;
+    font-weight: bold;
   }
 }
 

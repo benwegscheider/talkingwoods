@@ -1741,3 +1741,27 @@ Load paths:
 2014-07-13 20:24:17 overwrite ./css/style.css 
 2014-07-13 22:06:23 overwrite ./css/style.css 
 2014-07-13 22:10:09 overwrite ./css/style.css 
+2014-07-15 01:05:18 overwrite ./css/style.css 
+2014-07-15 01:05:43 overwrite ./css/style.css 
+2014-07-15 01:05:50 overwrite ./css/style.css 
+2014-07-15 01:05:56 overwrite ./css/style.css 
+2014-07-15 01:06:08 overwrite ./css/style.css 
+2014-07-15 01:06:22 overwrite ./css/style.css 
+2014-07-15 01:06:49 overwrite ./css/style.css 
+2014-07-15 01:18:57 overwrite ./css/style.css 
+2014-07-15 01:20:03 overwrite ./css/style.css 
+2014-07-15 01:20:41 overwrite ./css/style.css 
+2014-07-15 01:20:55 overwrite ./css/style.css 
+2014-07-15 01:21:09 overwrite ./css/style.css 
+2014-07-15 01:21:23 overwrite ./css/style.css 
+2014-07-15 01:21:28     error sass/style.scss (Line 39 of sass/part/_main.scss: Invalid CSS after "  display: ": expected expression (e.g. 1px, bold), was ";")
+2014-07-15 01:21:28 overwrite ./css/style.css 
+2014-07-15 01:21:28     error sass/style.scss (Line 39 of sass/part/_main.scss: Invalid CSS after "  display: ": expected expression (e.g. 1px, bold), was ";")
+2014-07-15 01:21:28 identical ./css/style.css 
+2014-07-15 01:21:31     error sass/style.scss (Line 39 of sass/part/_main.scss: Invalid CSS after "  display: ": expected expression (e.g. 1px, bold), was ";")
+2014-07-15 01:21:31 identical ./css/style.css 
+2014-07-15 01:21:31     error sass/style.scss (Line 39 of sass/part/_main.scss: Invalid CSS after "  display: ": expected expression (e.g. 1px, bold), was ";")
+2014-07-15 01:21:31 identical ./css/style.css 
+2014-07-15 01:21:44 overwrite ./css/style.css 
+2014-07-15 01:25:24 overwrite ./css/style.css 
+2014-07-15 01:26:42 overwrite ./css/style.css 

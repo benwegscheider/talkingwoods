@@ -156,15 +156,15 @@ p { font-size: 15px; letter-spacing: 2px; line-height: 22px; }
 
 .keyword1, .keyword2 { font-family: Times; font-size: 20px; letter-spacing: 4px; }
 
-.sub { font-family: Times; font-family: Times; font-size: 18px; font-style: italic; line-height: 27px; letter-spacing: 5px; font-weight: bold; }
+.sub { font-family: Times; font-family: Times; font-size: 18px; font-style: italic; line-height: 27px; letter-spacing: 4px; font-weight: bold; }
 
 .kapitel { font-size: 15px; text-transform: uppercase; letter-spacing: 2px; }
 
-#menuLink { font-size: 13px; letter-spacing: 3.5px; border: none; }
+#menuLink { font-size: 13px; letter-spacing: 3.5px; border: none; font-weight: bold; }
 #menuLink:hover { border-bottom: 2px solid; }
 
-#menuWrap h1 { font-family: Helvetica; font-style: normal; font-size: 28px; font-weight: bold; letter-spacing: 17px; }
-#menuWrap a { font-family: "Times New Roman"; letter-spacing: 5px; font-style: italic; font-size: 13px; }
+#menuWrap h1 { font-family: Helvetica; font-style: normal; font-size: 30px; font-weight: bold; letter-spacing: 17px; }
+#menuWrap a { font-family: "Times New Roman"; letter-spacing: 6px; font-style: italic; font-size: 13px; font-weight: bold; }
 
 .element h1 { font-family: "Times New Roman"; font-weight: bold; font-size: 28px; letter-spacing: 4px; }
 .element h2 { font-size: 46px; font-weight: bold; line-height: 57px; text-align: center; letter-spacing: 5px; }
@@ -192,15 +192,15 @@ body.bottom { cursor: url("../img/arrow-down.png"), auto; }
 
 h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 
-#loader { display: block; background-color: #000000; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10000; }
-#loader img { width: 80px; height: 80px; margin: 0 auto; display: block; }
+#loader { display: block; background-color: #000000; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+#loader img { width: 524px; height: auto; margin: 0 auto; display: none; }
 
 .centerwrap { display: table; height: 100%; width: 100%; }
 .centerwrap .center { display: table-cell; vertical-align: middle; }
 
 #video { position: absolute; top: 0; left: 0; }
 
-#border { position: absolute; display: none; z-index: 7; width: 700px; height: 490px; border: 7px solid; border-color: #fff; top: 50%; margin-top: -245px; left: 50%; margin-left: -350px; pointer-events: none; }
+#border { position: absolute; display: block; z-index: 7; width: 700px; height: 490px; border: 7px solid; border-color: #fff; top: 50%; margin-top: -245px; left: 50%; margin-left: -350px; pointer-events: none; }
 
 #user-form { padding: 50px; }
 
@@ -244,7 +244,7 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 #menuWrap .menuBtn { text-decoration: none; }
 #menuWrap #menu { position: relative; z-index: 101; padding: 0; text-align: center; letter-spacing: 1px; margin-top: 20px; }
 #menuWrap #menu li { display: inline; margin: 0 26px; }
-#menuWrap #menu li a { text-transform: uppercase; padding: 8px 10px; }
+#menuWrap #menu li a { text-transform: uppercase; margin: 8px 10px; padding-bottom: 5px; }
 #menuWrap #menu li a:hover { border-bottom: 2px solid white; }
 
 #menuLink { position: fixed; top: 30px; text-align: center; display: none; left: 50%; margin-left: -80px; z-index: 1001; text-decoration: none; letter-spacing: 2px; }
