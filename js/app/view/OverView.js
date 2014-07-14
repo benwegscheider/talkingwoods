@@ -198,7 +198,7 @@ define([
                     TweenMax.to( this.landingView.$el, 1.3,{y: -this.displayModel.get('height'), ease: Cubic.easeInOut, force3D: true, onCompleteScope:this, onComplete: function() {
                         this.landingView.$el.css('display', 'none');
                         TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
-
+                        TweenMax.to( this.landingView.$el, 0,{y: 0});
                     }});
                 }
                 if (this.infoView.$el.css('display') == 'block') {
@@ -211,7 +211,7 @@ define([
                     this.videoView.pause();
                     TweenMax.to( this.videoView.$el, 1.3,{y: -this.displayModel.get('height'), ease: Cubic.easeInOut, force3D: true, onCompleteScope:this, onComplete: function() {
 //                        TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
-
+                        TweenMax.to( this.videoView.$el, 0,{y: 0});
                     }});
                 }
 
