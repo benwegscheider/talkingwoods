@@ -11,6 +11,7 @@ define([
         projectModel: null,
 
         $descr: null,
+        $border: null,
 
         gestureManager: null,
 
@@ -22,6 +23,7 @@ define([
             this._super(options);
 
             this.projectModel = options.projectModel;
+            this.$border = $('#border');
 
             console.log('### ProjectView.initialize: ', arguments);
 
@@ -66,6 +68,8 @@ define([
                 $lleft =  this.gallery.items[this.gallery.items.length-2];
                 $right = this.gallery.items[this.projectModel.get('slide')+1];
                 $rright = this.gallery.items[this.projectModel.get('slide')+2];
+//                TweenMax.to(this.$border, 0.9, {x: 0, force3D:true, ease: Cubic.easeInOut});
+
 
             }
             else if (this.projectModel.get('slide') == this.gallery.items.length-1 ) {
@@ -76,7 +80,7 @@ define([
                 $lleft =  this.gallery.items[this.projectModel.get('slide')-2];
                 $right = this.gallery.items[0];
                 $rright = this.gallery.items[1];
-
+//                TweenMax.to(this.$border, 0.9, {x: (this.displayModel.get('width')-this.$border.width()/2), force3D:true, ease: Cubic.easeInOut});
             }
             else if (this.projectModel.get('slide') == 1 ) {
                 // end
@@ -86,6 +90,8 @@ define([
                 $lleft =  this.gallery.items[this.gallery.items.length-1];
                 $right = this.gallery.items[this.projectModel.get('slide')+1];
                 $rright = this.gallery.items[this.projectModel.get('slide')+2];
+//                TweenMax.to(this.$border, 0.9, {x: -(this.displayModel.get('width')-this.$border.width()/2), force3D:true, ease: Cubic.easeInOut});
+
 
             }
             else if (this.projectModel.get('slide') == this.gallery.items.length-2 ) {
@@ -96,7 +102,6 @@ define([
                 $lleft =  this.gallery.items[this.projectModel.get('slide')-2];
                 $right = this.gallery.items[this.gallery.items.length-1];
                 $rright = this.gallery.items[0];
-
             }
             else if (this.projectModel.get('slide') > 1 && this.projectModel.get('slide') < this.gallery.items.length-2 ) {
               // inbetween

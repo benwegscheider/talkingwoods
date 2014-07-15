@@ -12,6 +12,7 @@ define([
         $input: null,
 
         $body: null,
+        $border: null,
 
         projects: [],
 
@@ -37,6 +38,7 @@ define([
             var that = this;
 
             this.$body = $('body');
+//            this.$border = $('#border');
 
             $prjcts.each(function() {
 
@@ -67,11 +69,21 @@ define([
                 }
                 else if (e.pageY < that.displayModel.get('height')/4 && e.pageX > that.displayModel.get('width')/4 && e.pageX < (that.displayModel.get('width')/4)*3) {
                     // oben
-                    that.$body.removeClass('left').removeClass('right').removeClass('bottom').addClass('top');
+                    if (that.stateModel.get('project') != 0) {
+                        that.$body.removeClass('left').removeClass('right').removeClass('bottom').addClass('top');
+                    }
+                    else {
+                        that.$body.removeClass('top');
+                    }
                 }
                 else if (e.pageY > (that.displayModel.get('height')/4)*3 && e.pageX > that.displayModel.get('width')/4 && e.pageX < (that.displayModel.get('width')/4)*3) {
                     // unten
-                    that.$body.removeClass('left').removeClass('right').removeClass('top').addClass('bottom');
+                    if (that.stateModel.get('project') != that.projects.length-1) {
+                        that.$body.removeClass('left').removeClass('right').removeClass('top').addClass('bottom');
+                    }
+                    else {
+                        that.$body.removeClass('bottom');
+                    }
                 }
                 else {
                     that.$body.removeClass('left').removeClass('right').removeClass('top').removeClass('bottom');

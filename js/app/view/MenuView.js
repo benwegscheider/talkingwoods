@@ -17,11 +17,11 @@ define([
 
             console.log('### MenuView.initialize: ', arguments);
 
-            this.gestureManager = new GestureManager({$el: this.$el, autoEnable: true, autoStart: true});
-            this.gestureManager.on('gesture', this.onGesture);
+//            this.gestureManager = new GestureManager({$el: this.$el, autoEnable: true, autoStart: true});
+//            this.gestureManager.on('gesture', this.onGesture);
 
             this.stateModel.on('change:menu', this.onChangeMenu);
-            this.stateModel.on('change:status', this.onStatusChange);
+//            this.stateModel.on('change:status', this.onStatusChange);
 
             this.render();
         },

@@ -150,9 +150,10 @@ define([
                 }});
 //                    TweenMax.to(this.$menuLink, 0.3, {autoAlpha:0});
 
-                TweenMax.to(this.$menuLink, 1, { css: {color: '#fff', borderColor: '#fff'}, ease: Linear.easeNone, onCompleteScope: this, onComplete: function() {
+                TweenMax.to(this.$menuLink, 1, { css: {color: '#fff', borderColor: '#fff'}, opacity: 0, ease: Linear.easeNone, onCompleteScope: this, onComplete: function() {
                     console.log("JO");
                 }});
+                TweenMax.to(this.$menuLink, 1, { opacity: 0, autoAlpha: 0, ease: Linear.easeNone});
 
                 TweenMax.to(this.$border, 1, {borderColor: '#fff', opacity: 1, ease: Linear.easeNone});
                 TweenMax.to(this.$border, 1, {autoAlpha: 1, opacity: 1, ease: Linear.easeNone});
@@ -245,7 +246,7 @@ define([
                     this.$el.scrollTop(0);
                 }});
 
-                TweenMax.to(this.$menuLink, 1, {css: {color: this.infoView.$el.attr('data-color'), borderColor: this.infoView.$el.attr('data-color')}, autoAlpha: 1, ease: Linear.easeNone});
+                TweenMax.to(this.$menuLink, 1, {css: {color: this.infoView.$el.attr('data-color'), borderColor: this.infoView.$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
                 TweenMax.to(this.$border, 1, {autoAlpha: 0, opacity: 1, ease: Linear.easeNone});
 
                 TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: this.infoView.$el.attr('data-color')}, ease: Linear.easeNone});
@@ -314,7 +315,7 @@ define([
 
                 TweenMax.to(this.$border, 1, {borderColor: '#fff', opacity: 1, ease: Linear.easeNone});
                 TweenMax.to(this.$border, 0.6, {autoAlpha: 0, ease: Linear.easeNone});
-                TweenMax.to(this.$menuLink, 1, {css: {color: '#fff', borderColor: '#fff'}, autoAlpha: 1, ease: Linear.easeNone});
+                TweenMax.to(this.$menuLink, 1, {css: {color: '#fff', borderColor: '#fff'}, opacity: 1, ease: Linear.easeNone});
 
 
 //                TweenMax.to(this.$menuLink, 1, { autoAlpha: 1, ease: Linear.easeNone});
@@ -376,7 +377,7 @@ define([
 
                 TweenMax.to(this.$border, 1, {autoAlpha: 1, opacity: 1, ease: Linear.easeNone});
 
-                TweenMax.to(this.$menuLink, 0.3, {autoAlpha:0, onCompleteScope: this, onComplete: function() {
+                TweenMax.to(this.$menuLink, 0.3, {opacity:0, onCompleteScope: this, onComplete: function() {
                     this.$menuLink.css('display', 'block');
                 }});
             }
@@ -413,7 +414,7 @@ define([
         onProjectChange: function() {
             if (this.stateModel.get('status') == 'projekte') {
                 TweenMax.to(this.$border, 1, {borderColor: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color'), opacity: 1, ease: Linear.easeNone});
-                TweenMax.to(this.$menuLink, 1, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color'), borderColor: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, autoAlpha: 1, ease: Linear.easeNone});
+                TweenMax.to(this.$menuLink, 1, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color'), borderColor: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
                 TweenMax.to(this.menuView.$el.find('h1, a'), 0, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
                 TweenMax.to(this.projectThreadView.projectIndication.$text, 1, {css: {color: this.projectThreadView.projects[this.stateModel.get('project')].$el.attr('data-color')}, opacity: 1, ease: Linear.easeNone});
 

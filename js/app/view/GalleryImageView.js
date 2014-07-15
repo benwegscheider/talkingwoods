@@ -7,7 +7,12 @@ define([
         $element: null,
         $manifest: null,
 
+        projectModel: null,
+
         type: '',
+
+        $format: null,
+        $sub: null,
 
         events: {
 
@@ -16,6 +21,7 @@ define([
         initialize: function(options) {
             this._super(options);
 
+            this.projectModel = options.projectModel;
             this.type = options.type;
 
 //            console.log('### GalleryImageView.initialize: ', arguments);
@@ -39,6 +45,10 @@ define([
 
                 if (this.type == 'manifest') {
                     var $manifest = this.$el.find('h2');
+
+                    this.$format = this.$el.find('.format');
+                    this.$sub = this.$el.find('.sub');
+                    this.projectModel.on('change:slide', this.checkSlide);
 
                     this.$element = this.$el.find('.manifest-wrap');
 
@@ -71,6 +81,7 @@ define([
             this.displayModel.on('change:height', this.adjustImageHeight);
             this.displayModel.on('change:width', this.adjustImageHeight);
 
+
             this.render();
         },
 
@@ -88,7 +99,20 @@ define([
                 this.$manifest.css('width', this.displayModel.get('width')*0.5);
 
             }
+        },
+
+        checkSlide: function() {
+            console.log(this.$format);
+            if (this.projectModel.get('slide') != 0) {
+                TweenMax.to(this.$format, 0.7, {autoAlpha:0});
+                TweenMax.to(this.$sub, 0.7, {autoAlpha:0});
+            }
+            else {
+                TweenMax.to(this.$format, 0.7, {autoAlpha:1});
+                TweenMax.to(this.$sub, 0.7, {autoAlpha:1});
+            }
         }
+
 
     });
 

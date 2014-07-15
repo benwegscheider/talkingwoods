@@ -30,7 +30,7 @@ define([
 
             var $imgs = this.$el.find('.element');
             $imgs.each(function() {
-                that.items.push(new GalleryImageView({el: $(this), displayModel: that.displayModel, stateModel: that.stateModel}));
+                that.items.push(new GalleryImageView({el: $(this), displayModel: that.displayModel, stateModel: that.stateModel, projectModel: that.projectModel}));
             });
 
 
