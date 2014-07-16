@@ -129,13 +129,21 @@ define([
 
             if ($mid.$element.hasClass('main')) {
                 $mid.$el.css('z-index', 101);
-                TweenMax.to($mid.$element, 0.9, {css: {height: '700'}, ease: Cubic.easeInOut});
+                var scaleWidth = 0;
+                if (this.displayModel.get('width')*0.8 < 1000) {
+                    scaleWidth = this.displayModel.get('width')*0.8;
+                }
+                else {
+                    scaleWidth = 1000;
+                }
+
+                TweenMax.to($mid.$element, 0.9, {css: {width: scaleWidth}, ease: Cubic.easeInOut});
             }
             if ($left.$element.hasClass('main')) {
-                TweenMax.to($left.$element, 0.9, {css: {height: '533'}, ease: Cubic.easeInOut});
+                TweenMax.to($left.$element, 0.9, {css: {width: $left.width}, ease: Cubic.easeInOut});
             }
             if ($right.$element.hasClass('main')) {
-                TweenMax.to($right.$element, 0.9, {css: {height: '533'}, ease: Cubic.easeInOut});
+                TweenMax.to($right.$element, 0.9, {css: {width: $right.width}, ease: Cubic.easeInOut});
             }
 
 

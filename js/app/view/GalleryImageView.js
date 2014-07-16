@@ -11,6 +11,8 @@ define([
 
         type: '',
 
+        width: 0,
+
         $format: null,
         $sub: null,
 
@@ -92,13 +94,16 @@ define([
         },
 
         adjustImageHeight: function() {
-            if (this.$img != null) {
-                this.$img.css('width', this.displayModel.get('width')*0.7);
+            if (this.type == 'image') {
+                if (this.displayModel.get('width')*0.6 < 1000) {
+                    this.width =  this.displayModel.get('width')*0.6;
+                    this.$element.css('width',this.width);
+                }
             }
-            else if (this.$manifest != null) {
-                this.$manifest.css('width', this.displayModel.get('width')*0.5);
-
-            }
+//            else if (this.type != null) {
+//                this.$manifest.css('width', this.displayModel.get('width')*0.5);
+//
+//            }
         },
 
         checkSlide: function() {
