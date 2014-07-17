@@ -139,12 +139,13 @@ define([
 //
 //                TweenMax.to($mid.$element, 0.9, {css: {width: scaleWidth}, ease: Cubic.easeInOut});
 //            }
-            if ($left.$element.hasClass('main')) {
-                TweenMax.to($left.$element, 0.9, {css: {width: $left.width}, ease: Cubic.easeInOut});
-            }
-            if ($right.$element.hasClass('main')) {
-                TweenMax.to($right.$element, 0.9, {css: {width: $right.width}, ease: Cubic.easeInOut});
-            }
+
+//            if ($left.$element.hasClass('main')) {
+//                TweenMax.to($left.$element, 0.9, {css: {width: $left.width}, ease: Cubic.easeInOut});
+//            }
+//            if ($right.$element.hasClass('main')) {
+//                TweenMax.to($right.$element, 0.9, {css: {width: $right.width}, ease: Cubic.easeInOut});
+//            }
 
 
 
