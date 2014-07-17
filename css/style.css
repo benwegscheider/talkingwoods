@@ -252,7 +252,7 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 
 #menuLink, #close { position: fixed; top: 30px; text-align: center; display: none; left: 50%; margin-left: -80px; z-index: 1001; text-decoration: none; letter-spacing: 2px; }
 
-#close { margin-left: -15px; }
+#close { margin-left: -15px; display: none; }
 #close img { width: 30px; height: 30px; display: block; }
 
 #video { display: none; position: absolute; top: 0; left: 0; }
