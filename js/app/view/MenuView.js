@@ -64,7 +64,9 @@ define([
         clickMenu: function(e) {
             console.log("click menu: "+ $(e.target).html());
 
-            var btn = $(e.target).html();
+            var btn = $(e.target).attr('id');
+
+            console.log($(e.target));
 
             if (btn == 'Projekte') {
                 this.stateModel.set('status', 'projekte');
@@ -85,7 +87,7 @@ define([
                 this.stateModel.set('menu', false);
             }
 
-            else if (btn == 'Talking Woods') {
+            else if (btn == 'Talkingwoods') {
                 this.stateModel.set('status', 'start');
                 this.stateModel.set('project', 0);
             }

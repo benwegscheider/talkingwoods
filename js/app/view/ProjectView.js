@@ -127,18 +127,18 @@ define([
 
 
 
-            if ($mid.$element.hasClass('main')) {
-                $mid.$el.css('z-index', 101);
-                var scaleWidth = 0;
-                if (this.displayModel.get('width')*0.8 < 1000) {
-                    scaleWidth = this.displayModel.get('width')*0.8;
-                }
-                else {
-                    scaleWidth = 1000;
-                }
-
-                TweenMax.to($mid.$element, 0.9, {css: {width: scaleWidth}, ease: Cubic.easeInOut});
-            }
+//            if ($mid.$element.hasClass('main')) {
+//                $mid.$el.css('z-index', 101);
+//                var scaleWidth = 0;
+//                if (this.displayModel.get('width')*0.8 < 1000) {
+//                    scaleWidth = this.displayModel.get('width')*0.8;
+//                }
+//                else {
+//                    scaleWidth = 1000;
+//                }
+//
+//                TweenMax.to($mid.$element, 0.9, {css: {width: scaleWidth}, ease: Cubic.easeInOut});
+//            }
             if ($left.$element.hasClass('main')) {
                 TweenMax.to($left.$element, 0.9, {css: {width: $left.width}, ease: Cubic.easeInOut});
             }
@@ -157,11 +157,11 @@ define([
 //            TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - $left.$element.width())/2 + 150, ease: Cubic.easeInOut, force3D: true});
 
             if ($left.type == 'image') {
-                TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - 800)/2 + 150, ease: Cubic.easeInOut, force3D: true});
+                TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - 800)/2 + this.displayModel.get('width')*0.05, ease: Cubic.easeInOut, force3D: true});
 
             }
             else {
-                TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - $left.$element.width())/2 + 150, ease: Cubic.easeInOut, force3D: true});
+                TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - $left.$element.width())/2 + this.displayModel.get('width')*0.05, ease: Cubic.easeInOut, force3D: true});
 
             }
 
@@ -183,11 +183,11 @@ define([
             }});
 //            TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - $right.$element.width())/2 - 150, ease: Cubic.easeInOut, force3D: true});
             if ($right.type == 'image') {
-                TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - 800)/2 - 150, ease: Cubic.easeInOut, force3D: true});
+                TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - 800)/2 - this.displayModel.get('width')*0.05, ease: Cubic.easeInOut, force3D: true});
 
             }
             else {
-                TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - $right.$element.width())/2 - 150, ease: Cubic.easeInOut, force3D: true});
+                TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - $right.$element.width())/2 - this.displayModel.get('width')*0.05, ease: Cubic.easeInOut, force3D: true});
 
             }
 

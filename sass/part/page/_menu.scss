@@ -44,13 +44,15 @@
       a:hover{
         border-bottom: 2px solid white;
       }
+
+
     }
   }
 }
 
 
 
-#menuLink {
+#menuLink, #close {
   position: fixed;
   top: 30px;
   text-align: center;
@@ -60,4 +62,15 @@
   z-index: 1001;
   text-decoration: none;
   letter-spacing: 2px;
+}
+
+#close {
+  margin-left:-15px;
+
+
+  img {
+    width: 30px;
+    height: 30px;
+    display: block;
+  }
 }

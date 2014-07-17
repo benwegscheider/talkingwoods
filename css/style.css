@@ -164,7 +164,7 @@ p { font-size: 15px; letter-spacing: 2px; line-height: 22px; }
 #menuLink:hover { border-bottom: 2px solid; }
 
 #menuWrap h1 { font-family: Helvetica; font-style: normal; font-size: 30px; font-weight: bold; letter-spacing: 17px; }
-#menuWrap a { font-family: "Times New Roman"; letter-spacing: 6px; font-style: italic; font-size: 14px; font-weight: bold; }
+#menuWrap a { font-family: "Times New Roman"; letter-spacing: 6px; font-style: italic; font-size: 15px; font-weight: bold; }
 
 .element h1 { font-family: "Times New Roman"; font-weight: bold; font-size: 28px; letter-spacing: 4px; }
 .element h2 { font-size: 46px; font-weight: bold; line-height: 57px; text-align: center; letter-spacing: 5px; }
@@ -192,6 +192,8 @@ body.top { cursor: url("../img/arrow-up.png"), auto; }
 body.bottom { cursor: url("../img/arrow-down.png"), auto; }
 
 h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
+
+.last { letter-spacing: 0px; }
 
 #loader { display: block; background-color: #000000; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 #loader img { width: 524px; height: auto; margin: 0 auto; display: none; }
@@ -235,7 +237,7 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 #info .contact { position: absolute; left: 6%; top: 400px; text-align: center; }
 #info .danke { position: absolute; right: 6%; top: 800px; text-align: center; }
 
-#start { position: absolute; top: 0; left: 0; display: none; }
+#start { position: absolute; top: 0; left: 0; display: none; overflow: hidden; }
 #start .border { position: absolute; top: 30px; right: 30px; bottom: 30px; left: 30px; border: 4px solid white; z-index: 0; }
 #start .centerwrap { position: relative; z-index: 1; }
 
@@ -248,7 +250,10 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 #menuWrap #menu li a { text-transform: uppercase; margin: 8px 10px; padding-bottom: 5px; }
 #menuWrap #menu li a:hover { border-bottom: 2px solid white; }
 
-#menuLink { position: fixed; top: 30px; text-align: center; display: none; left: 50%; margin-left: -80px; z-index: 1001; text-decoration: none; letter-spacing: 2px; }
+#menuLink, #close { position: fixed; top: 30px; text-align: center; display: none; left: 50%; margin-left: -80px; z-index: 1001; text-decoration: none; letter-spacing: 2px; }
+
+#close { margin-left: -15px; }
+#close img { width: 30px; height: 30px; display: block; }
 
 #video { display: none; position: absolute; top: 0; left: 0; }
 

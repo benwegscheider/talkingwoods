@@ -1779,3 +1779,25 @@ Load paths:
 2014-07-15 23:18:03 overwrite ./css/style.css 
 2014-07-15 23:18:14 overwrite ./css/style.css 
 2014-07-15 23:19:32 overwrite ./css/style.css 
+2014-07-17 00:57:24     error sass/style.scss (Line 23 of sass/part/page/_start.scss: Invalid CSS after "  .": expected class name, was "}")
+2014-07-17 00:57:24 overwrite ./css/style.css 
+2014-07-17 00:57:24     error sass/style.scss (Line 23 of sass/part/page/_start.scss: Invalid CSS after "  .": expected class name, was "}")
+2014-07-17 00:57:24 identical ./css/style.css 
+2014-07-17 00:58:10 overwrite ./css/style.css 
+2014-07-17 00:58:20 overwrite ./css/style.css 
+2014-07-17 00:59:32 overwrite ./css/style.css 
+2014-07-17 00:59:38 overwrite ./css/style.css 
+2014-07-17 01:01:31 overwrite ./css/style.css 
+2014-07-17 01:22:26 overwrite ./css/style.css 
+2014-07-17 01:23:08 overwrite ./css/style.css 
+2014-07-17 01:23:29 overwrite ./css/style.css 
+2014-07-17 01:24:16 overwrite ./css/style.css 
+2014-07-17 01:25:00 overwrite ./css/style.css 
+2014-07-17 01:25:33 overwrite ./css/style.css 
+2014-07-17 01:31:57 identical ./css/style.css 
+2014-07-17 01:32:55 overwrite ./css/style.css 
+2014-07-17 01:34:14 identical ./css/style.css 
+2014-07-17 01:43:16 overwrite ./css/style.css 
+2014-07-17 01:43:20 overwrite ./css/style.css 
+2014-07-17 01:43:32 identical ./css/style.css 
+2014-07-17 01:43:44 overwrite ./css/style.css 

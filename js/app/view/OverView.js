@@ -27,6 +27,7 @@ define([
 
         menuView: null,
         $menuLink: null,
+        $close: null,
 
         animatingDown: false,
 
@@ -69,6 +70,7 @@ define([
 
             this.menuView = new MenuView({el: $('#menuWrap'), displayModel:this.displayModel, stateModel:this.stateModel})
             this.$menuLink = $('#menuLink');
+            this.$close = $('#close');
 
             this.$border = this.$el.find('#border');
 
@@ -358,6 +360,10 @@ define([
                 this.$menuLink.css('display', 'block');
                 TweenMax.to(this.$menuLink, 0.6, {autoAlpha:1});
 
+                this.$menuLink.text('Talking Woods');
+                this.$menuLink.css('margin-left', '');
+
+
             }
             else if (this.stateModel.get('menu') == true) {
                 this.$el.removeClass('right left top bottom');
@@ -377,15 +383,27 @@ define([
 
                 TweenMax.to(this.$border, 1, {autoAlpha: 1, opacity: 1, ease: Linear.easeNone});
 
-                TweenMax.to(this.$menuLink, 0.3, {opacity:0, onCompleteScope: this, onComplete: function() {
-                    this.$menuLink.css('display', 'block');
-                }});
+//                TweenMax.to(this.$menuLink, 0.3, {opacity:0, onCompleteScope: this, onComplete: function() {
+//                    this.$menuLink.css('display', 'block');
+//                }});
+
+                this.$menuLink.text('Close');
+                this.$menuLink.css('margin-left', '-27px');
+
+//                TweenMax.to(this.$close, 0.3, {opacity: 1});
             }
 
         },
 
         menuLinkClick: function() {
-            this.stateModel.set('menu', true);
+
+            if (this.stateModel.get('menu')) {
+                this.stateModel.set('menu', false);
+            }
+            else {
+                this.stateModel.set('menu', true);
+            }
+
 
             return false;
         },

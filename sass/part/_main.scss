@@ -35,6 +35,10 @@ h1, h2, h3, p, a {
   text-transform: uppercase;
 }
 
+.last {
+  letter-spacing: 0px;
+}
+
 #loader {
   display: block;
   background-color: #000000;
