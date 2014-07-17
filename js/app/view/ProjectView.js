@@ -157,11 +157,11 @@ define([
 //            TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - $left.$element.width())/2 + 150, ease: Cubic.easeInOut, force3D: true});
 
             if ($left.type == 'image') {
-                TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - 800)/2 + this.displayModel.get('width')*0.05, ease: Cubic.easeInOut, force3D: true});
+                TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - 800)/2 + this.displayModel.get('width')*0.10, ease: Cubic.easeInOut, force3D: true});
 
             }
             else {
-                TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - $left.$element.width())/2 + this.displayModel.get('width')*0.05, ease: Cubic.easeInOut, force3D: true});
+                TweenMax.to($left.$element, 0.9, {x: (this.displayModel.get('width') - $left.$element.width())/2 + this.displayModel.get('width')*0.10, ease: Cubic.easeInOut, force3D: true});
 
             }
 
@@ -183,11 +183,11 @@ define([
             }});
 //            TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - $right.$element.width())/2 - 150, ease: Cubic.easeInOut, force3D: true});
             if ($right.type == 'image') {
-                TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - 800)/2 - this.displayModel.get('width')*0.05, ease: Cubic.easeInOut, force3D: true});
+                TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - 800)/2 - this.displayModel.get('width')*0.10, ease: Cubic.easeInOut, force3D: true});
 
             }
             else {
-                TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - $right.$element.width())/2 - this.displayModel.get('width')*0.05, ease: Cubic.easeInOut, force3D: true});
+                TweenMax.to($right.$element, 0.9, {x: -(this.displayModel.get('width') - $right.$element.width())/2 - this.displayModel.get('width')*0.10, ease: Cubic.easeInOut, force3D: true});
 
             }
 

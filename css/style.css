@@ -164,7 +164,7 @@ p { font-size: 15px; letter-spacing: 2px; line-height: 22px; }
 #menuLink:hover { border-bottom: 2px solid; }
 
 #menuWrap h1 { font-family: Helvetica; font-style: normal; font-size: 30px; font-weight: bold; letter-spacing: 17px; }
-#menuWrap a { font-family: "Times New Roman"; letter-spacing: 6px; font-style: italic; font-size: 15px; font-weight: bold; }
+#menuWrap a { font-family: "Times New Roman"; letter-spacing: 6px; font-style: italic; font-size: 16px; font-weight: bold; }
 
 .element h1 { font-family: "Times New Roman"; font-weight: bold; font-size: 28px; letter-spacing: 4px; }
 .element h2 { font-size: 46px; font-weight: bold; line-height: 57px; text-align: center; letter-spacing: 5px; }

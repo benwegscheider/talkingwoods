@@ -26,7 +26,7 @@ define([
             });
 
 
-            this.BV.show('video/still.mp4',{ambient:true});
+            this.BV.show('video/loop.mp4', {ambient:true});
 
 //            videojs("example_video_1").ready(function(){
 //                var myPlayer = this;
