@@ -17,7 +17,7 @@
 <div id="loader">
     <div class="centerwrap">
         <div class="center">
-            <img src="img/loader3.gif"/>
+            <img src="img/black.gif"/>
         </div>
     </div>
 </div>
@@ -323,7 +323,7 @@
                     <div class="item">
                         <h3>UMSETZUNG</h3>
                         <p>
-                            Getanzt wird mitten im Wald - „Between Oaks <br/>
+                            Getanzt wird mitten im Wald &#150; „Between Oaks <br/>
                             and Pines“. Diesen Satz schrieben wir auf zwischen <br/>
                             Treibhölzer gespannte Seile. Alle Materialien <br/>
                             stammen aus der Umgebung und betonen die <br/>
@@ -703,8 +703,8 @@
                         <div class="item">
                             <h1>N˚ 6/7 triple oak</h1>
                             <h2>ÜBERLEG’S DIR<br>
-                                GUT &#8212; ES GIBT <br>
-                                KEIN APFEL ZET
+                                GUT &#150; ES GIBT <br>
+                                KEIN APFEL Z
                             </h2>
                             <span class="sub">PLAKAT FÜR EIN <br>
                                                 NEUES PRODUKT <br>
@@ -758,7 +758,7 @@
                     <div class="item">
                         <h3>UMSETZUNG</h3>
                         <p>
-                            Triple Oak &#8212; dreifach Eiche. Das ist der Name <br/>
+                            Triple Oak &#150; dreifach Eiche. Das ist der Name <br/>
                             des neuen Fahrradlenkers. Naheliegend, dass <br/>
                             wir die Liebe der Designer zum Holz aufgegriffen <br/>
                             haben. Die Flächen in der Typo bilden mit <br/>
@@ -925,6 +925,45 @@
     </div>
 </div>
 
+<!--<script type="text/javascript">-->
+    <!--var startInterval = null;-->
+    <!--var dir = -1;-->
+
+    <!--var $border = document.getElementById('border');-->
+
+    <!--$border.style.opacity = 1;-->
+
+    <!--document.addEventListener( "DOMContentLoaded", function(){-->
+        <!--startInterval = setInterval(function() {-->
+            <!--changeOpacity();-->
+        <!--}, 100);-->
+    <!--});-->
+
+    <!--function changeOpacity() {-->
+
+        <!--console.log('jo', $border.style.opacity);-->
+        <!--if ($border.style.opacity > 0.3 && dir == -1) {-->
+            <!--$border.style.opacity = Math.round((parseFloat($border.style.opacity) - 0.05)*100)/100;-->
+            <!--console.log('miinues');-->
+        <!--}-->
+        <!--else if ($border.style.opacity < 1.0 && dir == 1) {-->
+
+            <!--$border.style.opacity = Math.round((parseFloat($border.style.opacity) + 0.05)*100)/100;-->
+            <!--console.log('plus', $border.style.opacity);-->
+        <!--}-->
+        <!--else {-->
+            <!--console.log('else', dir);-->
+            <!--if (dir == -1) {-->
+                <!--dir  = 1;-->
+            <!--}-->
+            <!--else {-->
+                <!--dir = -1;-->
+            <!--}-->
+        <!--}-->
+
+    <!--}-->
+<!--</script>-->
+
 <script>
     var AppSettings = {
 //        urls: {
@@ -938,13 +977,11 @@
     };
 </script>
 
-<script type="text/javascript">
-    var startInterval = null;
-
-    $(document).ready()
-</script>
 
 <script src="js/vendor/requirejs/require.js"></script>
+
+
+
 <!--<script src="js/app/main.min.js"></script>-->
 </body>
 </html>

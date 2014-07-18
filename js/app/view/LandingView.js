@@ -20,13 +20,25 @@ define([
             this.BV = new $.BigVideo({useFlashForFirefox:false, container: this.$el.find('.video'), controls: true});
             this.BV.init();
 
+            var that = this;
+
             this.BV.getPlayer().on("loadedalldata", function(){
-                console.log('LOADED VIDEO');
+//                that.stateModel.set('startVideoLoading', false);
+//
+//                if (!that.stateModel.get('imagesLoading')) {
+//                    that.stateModel.set('loading', false);
+//                }
                 //app.player.play();
             });
 
+            var video = 'video/loop.mp4';
 
-            this.BV.show('video/loop.mp4', {ambient:true});
+            if (navigator.userAgent.search("Firefox")) {
+                video = 'video/loop.ogv';
+            }
+
+
+            this.BV.show(video, {ambient:true});
 
 //            videojs("example_video_1").ready(function(){
 //                var myPlayer = this;

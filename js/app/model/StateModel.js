@@ -9,7 +9,9 @@ define([
             menu: true,
             project: 0,
             inproject: false,
-            currentView: null
+            currentView: null,
+            imagesLoading: true,
+            startVideoLoading: true
         }
     });
 
