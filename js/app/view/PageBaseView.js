@@ -13,7 +13,7 @@ define([
         },
 
         render: function() {
-            //console.log('PageBaseView -> resize');
+            ////console.log('PageBaseView -> resize');
             var w = this.displayModel.get('width');
             var h = this.displayModel.get('height');
             this.$el.width(w);

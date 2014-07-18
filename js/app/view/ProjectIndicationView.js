@@ -15,7 +15,7 @@ define([
 
             this.projectAmount = options.projects;
 
-            console.log('### ProjectIndicationView.initialize: ', arguments);
+            //console.log('### ProjectIndicationView.initialize: ', arguments);
 
             this.$text = this.$el.find('span');
 

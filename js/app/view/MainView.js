@@ -23,7 +23,7 @@ define([
         initialize: function(options) {
             this._super();
 
-            console.log('### Main.initialize: ', arguments);
+            //console.log('### Main.initialize: ', arguments);
 
             this.appRouter = new AppRouter();
             this.appRouter.on('route:changeToInfoView', this.routerChangeToInfo);

@@ -14,7 +14,7 @@ define([
         initialize: function(options) {
             this._super(options);
 
-            console.log('### VideoView.initialize: ', arguments);
+            //console.log('### VideoView.initialize: ', arguments);
 
 
             this.video = videojs("talkingwoods-full", {}, function(){

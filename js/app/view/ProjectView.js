@@ -25,7 +25,7 @@ define([
             this.projectModel = options.projectModel;
             this.$border = $('#border');
 
-            console.log('### ProjectView.initialize: ', arguments);
+            //console.log('### ProjectView.initialize: ', arguments);
 
             this.gallery = new GalleryView({el: this.$el.find('.elements'), displayModel:this.displayModel, stateModel:this.stateModel, projectModel: this.projectModel});
 
@@ -53,8 +53,8 @@ define([
 
         onSlideChange: function() {
 
-            console.log("SLIDE LENGTH:" +this.gallery.items.length);
-            console.log("SLIDE: "+this.projectModel.get('slide'));
+            //console.log("SLIDE LENGTH:" +this.gallery.items.length);
+            //console.log("SLIDE: "+this.projectModel.get('slide'));
 
 
             var $left, $right, $lleft, $rright;
@@ -227,16 +227,16 @@ define([
             //direction can left right up or down
             var oldSlide = this.projectModel.get('slide');
 
-            console.log("slide : "+oldSlide+' '+type);
+            //console.log("slide : "+oldSlide+' '+type);
 
             if (type == 'right') {
                 if (!this.animating && oldSlide+1 <= this.gallery.items.length-1) {
 
-                    console.log("LENGTH: "+this.gallery.items.length);
+                    //console.log("LENGTH: "+this.gallery.items.length);
                     this.animating = true;
                     this.projectModel.set('slide',oldSlide+1);
 
-                    console.log("left");
+                    //console.log("left");
                 }
 
 
@@ -247,7 +247,7 @@ define([
                     this.animating = true;
                     this.projectModel.set('slide',oldSlide-1);
 
-                    console.log("Right");
+                    //console.log("Right");
                 }
 
 
@@ -262,14 +262,14 @@ define([
 
             var oldSlide = this.projectModel.get('slide');
 
-            console.log("slide : "+oldSlide);
+            //console.log("slide : "+oldSlide);
 
             var that = this;
             if (e.pageX > (that.displayModel.get('width')/4)*3 && e.pageY > that.displayModel.get('height')/4 && e.pageY < (that.displayModel.get('height')/4)*3
                 ) {
                 if (!this.animating && oldSlide+1 <= this.gallery.items.length-1) {
 
-                    console.log("LENGTH: "+this.gallery.items.length);
+                    //console.log("LENGTH: "+this.gallery.items.length);
                     this.animating = true;
                     this.projectModel.set('slide',oldSlide+1);
                 }
@@ -281,7 +281,7 @@ define([
             else if (e.pageX < that.displayModel.get('width')/4 && e.pageY > that.displayModel.get('height')/4 && e.pageY < (that.displayModel.get('height')/4)*3){
                 if (!this.animating && oldSlide-1 >=0) {
 
-                    console.log("LENGTH: "+this.gallery.items.length);
+                    //console.log("LENGTH: "+this.gallery.items.length);
                     this.animating = true;
                     this.projectModel.set('slide',oldSlide-1);
 

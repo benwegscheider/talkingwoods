@@ -20,7 +20,7 @@ define([
 
             this.projectModel = options.projectModel;
 
-            console.log('### GalleryView.initialize: ', arguments);
+            //console.log('### GalleryView.initialize: ', arguments);
 
             this.$imagesWrap = this.$el.find('.iamgesWrap');
 
@@ -59,7 +59,7 @@ define([
 //            //direction can left right up or down
 //            var oldSlide = this.projectModel.get('slide');
 //
-//            console.log("slide : "+oldSlide+' '+type);
+//            //console.log("slide : "+oldSlide+' '+type);
 //
 //            if (type == 'left') {
 //                if (!this.animating && oldSlide+1 <= this.images.length) {
@@ -70,7 +70,7 @@ define([
 //                        this.animating = false;
 //
 //                    }});
-//                    console.log("left");
+//                    //console.log("left");
 //                }
 //
 //
@@ -85,7 +85,7 @@ define([
 //                        this.animating = false;
 ////                        this.stateModel.set('project', oldProject-1);
 //                    }});
-//                    console.log("Right");
+//                    //console.log("Right");
 //                }
 //
 //

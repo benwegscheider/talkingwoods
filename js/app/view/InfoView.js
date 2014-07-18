@@ -11,7 +11,7 @@ define([
         initialize: function(options) {
             this._super(options);
 
-            console.log('### InfoView.initialize: ', arguments);
+            //console.log('### InfoView.initialize: ', arguments);
 
             this.render();
         },

@@ -29,7 +29,7 @@ define([
         initialize: function(options) {
             this._super(options);
 
-            console.log('### ProjectThreadView.initialize: ', arguments);
+            //console.log('### ProjectThreadView.initialize: ', arguments);
 
             this.$projectWrap = this.$el.find('#projectWrap')
 
@@ -42,7 +42,7 @@ define([
 
             $prjcts.each(function() {
 
-                //console.log(that.displayModel);
+                ////console.log(that.displayModel);
                 var project = new ProjectView({el:this, displayModel:that.displayModel, stateModel:that.stateModel, projectModel: new ProjectModel()});
                 that.projects.push(project);
             });
@@ -98,7 +98,7 @@ define([
             this.stateModel.on('change:project', this.onProjectChange);
 //            this.stateModel.on('change:inproject', this.onInProjectChange);
 
-            console.log("projects lenght: "+this.projects.length);
+            //console.log("projects lenght: "+this.projects.length);
 
             this.render();
         },
@@ -116,16 +116,16 @@ define([
             //direction can left right up or down
             var oldProject = this.stateModel.get('project');
 
-//            console.log("project : "+oldProject);
+//            //console.log("project : "+oldProject);
 
             if (type == 'down') {
                 if (!this.animatingDown && oldProject+1 <= this.projects.length-1) {
                     this.animatingDown = true;
                     this.stateModel.set('project',oldProject+1);
 
-                    console.log("ANIAMTO TO: "+this.stateModel.get('project'));
+                    //console.log("ANIAMTO TO: "+this.stateModel.get('project'));
 
-                    console.log("DOWN");
+                    //console.log("DOWN");
 
                     for (var i=0;i<this.projects.length; i++) {
                         // SLIDE ALL OTHER PROJECTS
@@ -146,7 +146,7 @@ define([
                     this.animatingDown = true;
                     this.stateModel.set('project',oldProject-1);
 
-                    console.log("UP");
+                    //console.log("UP");
 
                     for (var i=0;i<this.projects.length; i++) {
                         // SLIDE ALL OTHER PROJECTS
@@ -163,7 +163,7 @@ define([
         },
 
         onProjectChange: function() {
-            console.log("onProjectChange");
+            //console.log("onProjectChange");
 
             TweenMax.to(this.$projectWrap, 0.9, {y: -this.stateModel.get('project')*this.displayModel.get('height'), ease: Cubic.easeInOut, force3D: true, onCompleteScope: this, onComplete: function() {
 //                this.animatingDown = false;
@@ -182,7 +182,7 @@ define([
 
         nextProject: function(e) {
             var that = this;
-            console.log("CLICK");
+            //console.log("CLICK");
             if (e.pageY < that.displayModel.get('height')/4 && e.pageX > that.displayModel.get('width')/4 && e.pageX < (that.displayModel.get('width')/4)*3) {
                 // oben
                 this.onGesture('up');

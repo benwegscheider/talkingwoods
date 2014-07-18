@@ -15,7 +15,7 @@ define([
         initialize: function(options) {
             this._super(options);
 
-            console.log('### MenuView.initialize: ', arguments);
+            //console.log('### MenuView.initialize: ', arguments);
 
 //            this.gestureManager = new GestureManager({$el: this.$el, autoEnable: true, autoStart: true});
 //            this.gestureManager.on('gesture', this.onGesture);
@@ -62,11 +62,11 @@ define([
 
 
         clickMenu: function(e) {
-            console.log("click menu: "+ $(e.target).html());
+            //console.log("click menu: "+ $(e.target).html());
 
             var btn = $(e.target).attr('id');
 
-            console.log($(e.target));
+            //console.log($(e.target));
 
             if (btn == 'Projekte') {
                 this.stateModel.set('status', 'projekte');
@@ -101,13 +101,13 @@ define([
 
                 $('body').removeClass('left').removeClass('right');
 
-                console.log("STATUS: "+this.stateModel.get('status'));
+                //console.log("STATUS: "+this.stateModel.get('status'));
                 if (this.stateModel.get('status') != 'start' && this.stateModel.get('status') != 'video') {
                     TweenMax.to(this.$el, 0.3, {backgroundColor: 'rgba(255, 255, 255, 1)', opacity: 1, ease: Cubic.easeInOut});
 
                 }
                 else {
-                    console.log("NONE");
+                    //console.log("NONE");
                     TweenMax.to(this.$el, 0.3, {backgroundColor: 'none', opacity: 1});
 
                 }
@@ -123,13 +123,13 @@ define([
         },
 
         onStatusChange: function() {
-            console.log("STATUS: "+this.stateModel.get('status'));
+            //console.log("STATUS: "+this.stateModel.get('status'));
             if (this.stateModel.get('status') != 'start' && this.stateModel.get('status') != 'video') {
                 TweenMax.to(this.$el, 0.3, {backgroundColor: 'rgba(255, 255, 255, 1)', opacity: 1, ease: Cubic.easeInOut});
 
             }
             else {
-                console.log("NONE");
+                //console.log("NONE");
                 TweenMax.to(this.$el, 0.3, {backgroundColor: 'none', opacity: 1});
 
             }

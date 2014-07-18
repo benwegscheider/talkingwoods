@@ -40,7 +40,7 @@ define([
         initialize: function(options) {
             this._super(options);
 
-            console.log('### ViewManagerView.initialize: ', arguments);
+            //console.log('### ViewManagerView.initialize: ', arguments);
 
             this.preloaderView = new PreloaderView({el:$('#loader'), displayModel:this.displayModel, stateModel:this.stateModel});
             this.preloaderView.$el.fadeIn();
@@ -92,7 +92,7 @@ define([
         },
 
         statusChange: function() {
-            console.log("Overview -> statusChange: "+this.stateModel.get('status'));
+            //console.log("Overview -> statusChange: "+this.stateModel.get('status'));
 
             var status = this.stateModel.get('status');
 
@@ -153,7 +153,7 @@ define([
 //                    TweenMax.to(this.$menuLink, 0.3, {autoAlpha:0});
 
                 TweenMax.to(this.$menuLink, 1, { css: {color: '#fff', borderColor: '#fff'}, opacity: 0, ease: Linear.easeNone, onCompleteScope: this, onComplete: function() {
-                    console.log("JO");
+                    //console.log("JO");
                 }});
                 TweenMax.to(this.$menuLink, 1, { opacity: 0, autoAlpha: 0, ease: Linear.easeNone});
 
@@ -339,7 +339,7 @@ define([
                 }
                 else if (this.stateModel.get('status') == 'projekte' && this.projectThreadView.projects[this.stateModel.get('project')].projectModel.get('slide') != 0) {
                     TweenMax.to(this.$border, 0.6, {autoAlpha: 0, ease: Linear.easeNone});
-                    console.log('menuCHange');
+                    //console.log('menuCHange');
                 }
 
 
@@ -354,7 +354,7 @@ define([
                     }
                 }});
 
-                console.log('jo');
+                //console.log('jo');
 //                this.$menuLink.show();
 //                this.$menuLink.css('opacity', 1);
                 this.$menuLink.css('display', 'block');
@@ -371,7 +371,7 @@ define([
                 this.menuView.$el.css('display', 'block');
 
                 if (this.stateModel.get('status') == 'info') {
-                    console.log("JOJO");
+                    //console.log("JOJO");
                     $(document).scrollTop(0);
                     this.$el.css('overflow', 'hidden').css('height', '100%');
                 }

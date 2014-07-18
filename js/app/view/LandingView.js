@@ -15,7 +15,7 @@ define([
         initialize: function(options) {
             this._super(options);
 
-            console.log('### VideoView.initialize: ', arguments);
+            //console.log('### VideoView.initialize: ', arguments);
 
             this.BV = new $.BigVideo({useFlashForFirefox:false, container: this.$el.find('.video'), controls: true});
             this.BV.init();

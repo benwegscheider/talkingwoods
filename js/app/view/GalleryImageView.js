@@ -26,11 +26,11 @@ define([
             this.projectModel = options.projectModel;
             this.type = options.type;
 
-//            console.log('### GalleryImageView.initialize: ', arguments);
+//            //console.log('### GalleryImageView.initialize: ', arguments);
 
             this.type = this.$el.attr('data-type');
 
-            console.log(this.type);
+            //console.log(this.type);
 
             if ( this.type  == 'image') {
 
@@ -107,7 +107,7 @@ define([
         },
 
         checkSlide: function() {
-            console.log(this.$format);
+            //console.log(this.$format);
             if (this.projectModel.get('slide') != 0) {
                 TweenMax.to(this.$format, 0.7, {autoAlpha:0});
                 TweenMax.to(this.$sub, 0.7, {autoAlpha:0});

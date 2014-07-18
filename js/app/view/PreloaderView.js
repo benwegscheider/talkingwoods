@@ -8,7 +8,7 @@ define([
         initialize: function(options) {
             this._super(options);
 
-            console.log('### PreloaderView.initialize: ', arguments);
+            //console.log('### PreloaderView.initialize: ', arguments);
 
             this.render();
         },
