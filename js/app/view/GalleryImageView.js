@@ -64,7 +64,7 @@ define([
                 else if (this.type == 'text') {
                     this.$element = this.$el.find('.item');
 
-                    this.$element.css('width', 700);
+                    this.$element.css('width', 800);
                     this.$element.css('margin', '0 auto');
 
                     var structure = '<div class="centerwrap"><div class="center"></div></div>';
