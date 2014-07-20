@@ -33,7 +33,7 @@ define([
 
             var video = 'video/loop.mp4';
 
-            if (navigator.userAgent.search("Firefox")) {
+            if (navigator.userAgent.indexOf("Firefox")!=-1) {
                 video = 'video/loop.ogv';
             }
 

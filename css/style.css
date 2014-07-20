@@ -205,6 +205,14 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 
 #border { position: absolute; display: none; z-index: 7; width: 700px; height: 490px; border: 7px solid; border-color: #fff; top: 50%; margin-top: -245px; left: 50%; margin-left: -350px; pointer-events: none; }
 
+#mobile { display: none; position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: 10000; background: url("../img/iphone.jpg") no-repeat; background-size: cover; }
+
+html.mobile body { overflow: hidden; }
+html.mobile #mobile { display: block; }
+html.mobile h1, html.mobile p { color: #fff; text-align: center; }
+html.mobile h1 { font-size: 58px; letter-spacing: 10px; padding-bottom: 40px; }
+html.mobile p { font-size: 28px; line-height: 38px; letter-spacing: 4px; font-weight: bold; }
+
 #user-form { padding: 50px; }
 
 #projects { position: absolute; top: 0; left: 0; display: none; z-index: 5; }
@@ -240,6 +248,8 @@ h1, h2, h3, p, a { color: #000; text-transform: uppercase; }
 #start { position: absolute; top: 0; left: 0; display: none; overflow: hidden; }
 #start .border { position: absolute; top: 30px; right: 30px; bottom: 30px; left: 30px; border: 4px solid white; z-index: 0; }
 #start .centerwrap { position: relative; z-index: 1; }
+
+html.tablet #start { background-color: #000; }
 
 #menuWrap { position: absolute; top: 0; left: 0; display: none; z-index: 6; }
 #menuWrap h1, #menuWrap p, #menuWrap a { color: white; }

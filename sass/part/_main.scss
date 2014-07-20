@@ -97,5 +97,57 @@ h1, h2, h3, p, a {
 #info {
   h1, p {
   }
+}
+
+#mobile {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background: url('../img/iphone.jpg') no-repeat;
+  background-size: cover;
+
+  h1 {
+
+  }
+
+  p {
+
+  }
 
 }
+
+html.mobile {
+  body {
+    overflow: hidden;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  h1 , p {
+    color: #fff;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 58px;
+    letter-spacing: 10px;
+    padding-bottom: 40px;
+  }
+
+  p {
+    font-size: 28px;
+    line-height:38px;
+    letter-spacing: 4px;
+    font-weight: bold;
+  }
+}
+
+
+
+
