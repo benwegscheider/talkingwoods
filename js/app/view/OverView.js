@@ -42,46 +42,50 @@ define([
 
             //console.log('### ViewManagerView.initialize: ', arguments);
 
-            this.preloaderView = new PreloaderView({el:$('#loader'), displayModel:this.displayModel, stateModel:this.stateModel});
-            this.preloaderView.$el.fadeIn();
+            if (!$('html').hasClass('mobile')) {
+                this.preloaderView = new PreloaderView({el:$('#loader'), displayModel:this.displayModel, stateModel:this.stateModel});
+                this.preloaderView.$el.fadeIn();
 
-            this.stateModel.set('currentView', this.preloaderView);
+                this.stateModel.set('currentView', this.preloaderView);
 
 
-            this.imageAssetPreloader = new ImageAssetPreloader();
+                this.imageAssetPreloader = new ImageAssetPreloader();
 
-            var $images = this.$el.find('img');
+                var $images = this.$el.find('img');
 
-            for (var i = 0; i < $images.length; i++) {
-                var $image = $($images[i]);
-                this.imageAssetPreloader.addImageURL($image.attr('src'), $image);
-            }
+                for (var i = 0; i < $images.length; i++) {
+                    var $image = $($images[i]);
+                    this.imageAssetPreloader.addImageURL($image.attr('src'), $image);
+                }
 
 //            $(this.imageAssetPreloader).on('imageloaded', $.proxy(this.onImageLoaded, this));
-            $(this.imageAssetPreloader).on('complete', $.proxy(this.onAssetsPreloaded, this));
+                $(this.imageAssetPreloader).on('complete', $.proxy(this.onAssetsPreloaded, this));
 //            $(this.imageAssetPreloader).on('progress', $.proxy(this.onProgress, this));
 
-            this.imageAssetPreloader.start();
+                this.imageAssetPreloader.start();
 
 
-            this.landingView = new LandingView({el:$('#start'), displayModel:this.displayModel, stateModel:this.stateModel});
-            this.projectThreadView = new ProjectThreadView({el:$('#projects'), displayModel:this.displayModel, stateModel:this.stateModel});
-            this.videoView = new VideoView({el: $('#video'), displayModel:this.displayModel, stateModel:this.stateModel});
+                this.landingView = new LandingView({el:$('#start'), displayModel:this.displayModel, stateModel:this.stateModel});
+                this.projectThreadView = new ProjectThreadView({el:$('#projects'), displayModel:this.displayModel, stateModel:this.stateModel});
+                this.videoView = new VideoView({el: $('#video'), displayModel:this.displayModel, stateModel:this.stateModel});
 
-            this.menuView = new MenuView({el: $('#menuWrap'), displayModel:this.displayModel, stateModel:this.stateModel})
-            this.$menuLink = $('#menuLink');
-            this.$close = $('#close');
+                this.menuView = new MenuView({el: $('#menuWrap'), displayModel:this.displayModel, stateModel:this.stateModel})
+                this.$menuLink = $('#menuLink');
+                this.$close = $('#close');
 
-            this.$border = this.$el.find('#border');
+                this.$border = this.$el.find('#border');
 
-            this.infoView = new InfoView({el:$('#info'), displayModel:this.displayModel, stateModel:this.stateModel});
+                this.infoView = new InfoView({el:$('#info'), displayModel:this.displayModel, stateModel:this.stateModel});
 
-            this.stateModel.on('change:status', this.statusChange);
-            this.stateModel.on('change:menu', this.menuChange);
-            this.stateModel.on('change:loading', this.loadingChange);
+                this.stateModel.on('change:status', this.statusChange);
+                this.stateModel.on('change:menu', this.menuChange);
+                this.stateModel.on('change:loading', this.loadingChange);
 
-            this.stateModel.on('change:project', this.onProjectChange);
-            this.stateModel.on('change:inproject', this.onInProjectChange);
+                this.stateModel.on('change:project', this.onProjectChange);
+                this.stateModel.on('change:inproject', this.onInProjectChange);
+
+            }
+
 
             this.render();
         },

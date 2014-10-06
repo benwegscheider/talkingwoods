@@ -225,8 +225,8 @@ The control icons are from a custom font. Each icon corresponds to a character
 */
 
 // Icon font character values
-$play-icon: ">";
-$pause-icon: "||";
+$play-icon: "‣";
+$pause-icon: "ǁ";
 $volume-muted-icon: "\e003";
 $volume-low-icon: "\e004";
 $volume-mid-icon: "\e005";
@@ -269,7 +269,7 @@ $share-icon: "\e00e";
 }
 
 .vjs-default-skin .vjs-slider-handle:before {
-  content: $square-icon;
+//  content: $square-icon;
   font-family: Helvetica;
   font-size: 1em;
   line-height: 1;
@@ -302,6 +302,15 @@ The default control bar that is a container for most of the controls.
   height: 3.0em;
   background-color: #000;
   //@include background-color-with-alpha($control-bg-color, $control-bg-alpha);
+
+  .vjs-playing {
+//    content: '';
+  }
+
+  .vjs-paused {
+//    content: '';
+  }
+
 }
 
 /* Show the control bar only once the video has started playing */
@@ -352,7 +361,7 @@ $ie8screen: "\0screen";
   margin: 0;
   padding: 0;
   height: 3.0em;
-  width: 4em;
+  width: 3em;
 }
 
 /* FontAwsome button icons */
@@ -394,10 +403,15 @@ $ie8screen: "\0screen";
   cursor: pointer;
 }
 .vjs-default-skin .vjs-play-control:before {
-  content: $play-icon;
+//  content: $play-icon;
 }
 .vjs-default-skin.vjs-playing .vjs-play-control:before {
+   content: $play-icon;
+ }
+
+.vjs-default-skin.vjs-paused .vjs-paused:before {
   content: $pause-icon;
+  cursor: pointer;
 }
 
 /* Volume/Mute
@@ -427,6 +441,7 @@ $ie8screen: "\0screen";
 .vjs-default-skin .vjs-volume-control {
   width: 5em;
   float: right;
+  margin-right: 1.8em;
 }
 .vjs-default-skin .vjs-volume-bar {
   width: 5em;
@@ -474,7 +489,7 @@ $ie8screen: "\0screen";
   right: 0;
   width: auto;
   font-size: 0.3em;
-  height: 2px;
+  height: 3px;
   /* Set above the rest of the controls. *///
   top: -1em;
 
@@ -530,7 +545,7 @@ $ie8screen: "\0screen";
 .vjs-default-skin .vjs-seek-handle {
   width: 1.5em;
   height: 100%;
-  top: -3px;
+  top: -4.4px;
 }
 
 .vjs-default-skin .vjs-seek-handle:before {
@@ -542,14 +557,14 @@ $ie8screen: "\0screen";
 */
 .vjs-default-skin .vjs-time-controls {
   font-size: 11px;
-  line-height: 3em;
+  line-height: 2.8em;
   letter-spacing: 1px;
 }
 .vjs-default-skin .vjs-current-time { float: left; }
 .vjs-default-skin .vjs-duration { float: left; }
 /* Remaining time is in the HTML, but not included in default design */
 .vjs-default-skin .vjs-remaining-time { display: none; float: left; }
-.vjs-time-divider { float: left; line-height: 3em; }
+.vjs-time-divider { float: left; line-height: 2.8em; }
 
 /* Fullscreen
 --------------------------------------------------------------------------------
@@ -959,3 +974,12 @@ body.vjs-full-window {
 // -----------------------------------------------------------------------------
 //The original source of this file lives at
 //https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
+
+
+.vjs-mute-control {
+  display: none;
+}
+
+.vjs-time-divider {
+  padding-top: 2px;
+}

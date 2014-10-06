@@ -31,7 +31,7 @@ define([
 
             //console.log('### ProjectThreadView.initialize: ', arguments);
 
-            this.$projectWrap = this.$el.find('#projectWrap')
+            this.$projectWrap = this.$el.find('#projectWrap');
 
             var $prjcts = this.$el.find('.project');
 
@@ -99,6 +99,8 @@ define([
 //            this.stateModel.on('change:inproject', this.onInProjectChange);
 
             //console.log("projects lenght: "+this.projects.length);
+
+            this.displayModel.on('change', this.onResize);
 
             this.render();
         },
@@ -191,6 +193,10 @@ define([
                 // unten
                 this.onGesture('down');
             }
+        },
+
+        onResize: function() {
+            this.onProjectChange();
         }
 
 
