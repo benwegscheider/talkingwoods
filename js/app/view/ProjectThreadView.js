@@ -197,6 +197,12 @@ define([
 
         onResize: function() {
             this.onProjectChange();
+
+            for (var i = 0; i < this.projects.length; i++) {
+                var $project = this.projects[i];
+
+                $project.onSlideChange();
+            }
         }
 
 
