@@ -119,7 +119,7 @@ h1, h2, h3, p, a {
 
 }
 
-html.mobile {
+@media only screen and (max-width: 500px) {
   body {
     overflow: hidden;
     background-color: black;
