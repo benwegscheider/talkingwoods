@@ -226,18 +226,18 @@ The control icons are from a custom font. Each icon corresponds to a character
 
 // Icon font character values
 $play-icon: "‣";
-$pause-icon: "ǁ";
+$pause-icon: "‣";
 $volume-muted-icon: "\e003";
 $volume-low-icon: "\e004";
 $volume-mid-icon: "\e005";
 $volume-high-icon: "\e006";
 $fullscreen-enter-icon: "\e000";
 $fullscreen-exit-icon: "\e00b";
-$square-icon: "\e009";
-$spinner-icon: "\e00a";
-$spinner2-icon: "\e00d";
-$spinner3-icon: "\e01e";
-$spinner4-icon: "\e01f";
+$square-icon: "";
+$spinner-icon: "";
+$spinner2-icon: "";
+$spinner3-icon: "";
+$spinner4-icon: "";
 $subtitles-icon: "\e00c";
 $captions-icon: "\e008";
 $share-icon: "\e00e";
@@ -362,6 +362,13 @@ $ie8screen: "\0screen";
   padding: 0;
   height: 3.0em;
   width: 3em;
+
+}
+
+
+
+.vjs-live-display {
+  display: none;
 }
 
 /* FontAwsome button icons */
@@ -412,6 +419,7 @@ $ie8screen: "\0screen";
 .vjs-default-skin.vjs-paused .vjs-paused:before {
   content: $pause-icon;
   cursor: pointer;
+  opacity: 0.6;
 }
 
 /* Volume/Mute

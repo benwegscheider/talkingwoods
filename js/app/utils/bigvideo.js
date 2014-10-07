@@ -11,7 +11,7 @@ define([
     'common'
 ], function() {
 
-//    console.log($(document));
+    console.log($(document));
 
 	$.BigVideo = function(options) {
 
